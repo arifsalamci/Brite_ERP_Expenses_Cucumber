@@ -1,16 +1,26 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import utilities.Config;
 import utilities.Driver;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.List;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class Expenses_To_Submit_Page {
 
     public Expenses_To_Submit_Page(){
 
         PageFactory.initElements(Driver.getDriver(), this);
     }
+
+
     @FindBy(xpath = "//li[.='My Expenses to Submit']")
     public WebElement textDisplay;
 
@@ -23,9 +33,32 @@ public class Expenses_To_Submit_Page {
     @FindBy(xpath = "//input[@class='o_field_char o_field_widget o_input o_required_modifier']")
     public WebElement expenseDescriptionInput;
 
+    @FindBy(xpath = "//label[.='Expense Description']")
+    public WebElement expenseDescpriptionPage;
+
     @FindBy(xpath = "(//input[@class='o_input ui-autocomplete-input'])[1]")
     public WebElement productInput;
 
+
+    @FindBy(xpath = "(//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content'])[1]/li[1]")
+     public List<WebElement> list;
+
+    public static WebElement productDropdown(int indexOfProduct){
+        List<WebElement> element = Driver.getDriver().findElements(By.xpath("(//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content'])[1]/li"));
+        return element.get(indexOfProduct);
+//   String path = "src/ExpenseData.xlsx";
+//   String sheetName = "ExpenseTestData";
+//
+//   FileInputStream fileInputStream = new FileInputStream(path);
+//   XSSFWorkbook workbook = new XSSFWorkbook(fileInputStream);
+//   XSSFSheet sheet = workbook.getSheet(sheetName);
+//   XSSFCell cell = sheet.getRow(row).getCell(givenCell);
+
+//        for (WebElement product : element) {
+//       if (sheet.getRow(1).getCell(2).toString().equals(product.getText())){
+
+//        }
+    }
 
     @FindBy(xpath = "//a[.='[CARD] Apple80']")
     public WebElement chosenProduct;
@@ -39,6 +72,10 @@ public class Expenses_To_Submit_Page {
     @FindBy(xpath = "//div[@name='employee_id']/div")
     public WebElement employeeField;
 
+    public static WebElement employeeDropdown(int indexOfEmployee){
+        List<WebElement> employee = Driver.getDriver().findElements(By.xpath("(//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content'])[4]/li"));
+        return employee.get(indexOfEmployee);
+    }
     @FindBy(xpath = "//a[.='Anthony Bourdain']")
     public WebElement employeeName;
 
@@ -50,6 +87,9 @@ public class Expenses_To_Submit_Page {
 
     @FindBy(xpath = "//button[.='Approve']")
     public WebElement approveButton;
+
+    @FindBy(xpath = "//button[.='Refuse']")
+    public WebElement refuseButton;
 
     @FindBy(xpath = "//li[.='lunch with team']")
     public WebElement textAfterSave;
