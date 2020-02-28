@@ -1,1 +1,311 @@
-[]
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Creating expense as an Officer positive",
+        "description": "",
+        "id": "expenses;creating-expense-as-an-officer-positive",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14357040743,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Expenses functionality",
+            "match": {
+              "location": "Creating_exp_officer.user_clicks_on_the_Expenses_functionality()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2050809801,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on the Create button",
+            "match": {
+              "location": "Creating_exp_officer.user_clicks_on_the_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1241053838,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user fills out the expense description",
+            "match": {
+              "location": "Creating_exp_officer.user_fills_out_the_expense_description()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3237576138,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on the product dropdown",
+            "match": {
+              "location": "Creating_exp_officer.user_clicks_on_the_product_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132555,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on the unit price module",
+            "match": {
+              "location": "Creating_exp_officer.user_clicks_on_the_unit_price_module()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65187,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on the quantity module",
+            "match": {
+              "location": "Creating_exp_officer.user_clicks_on_the_quantity_module()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3222079408,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on the Employee dropdown",
+            "match": {
+              "location": "Creating_exp_officer.user_clicks_on_the_Employee_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94524,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on the Notes box",
+            "match": {
+              "location": "Creating_exp_officer.user_clicks_on_the_Notes_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138555292,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on the save button",
+            "match": {
+              "location": "Creating_exp_officer.user_clicks_on_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4358743312,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on the Submit to Manager button",
+            "match": {
+              "location": "Creating_exp_officer.user_clicks_on_the_Submit_to_Manager_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Creating expense as an Officer negative",
+        "description": "",
+        "id": "expenses;creating-expense-as-an-officer-negative",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#login\"}\n  (Session info: chrome\u003d80.0.3987.122)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Aiganyshs-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:1c01:7c0c:8707:9b9a%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.1\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/z8/vm6ykghn29l...}, goog:chromeOptions: {debuggerAddress: localhost:62125}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 88b13b557574e36c7cad5a4a9233baec\n*** Element info: {Using\u003did, value\u003dlogin}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy16.sendKeys(Unknown Source)\n\tat step_definitions.Creating_exp_officer.user_clicks_on_the_Expenses_functionality(Creating_exp_officer.java:20)\n\tat ✽.User clicks on the Expenses functionality(src/test/resources/features/create_expenses_officer.feature:22)\n",
+              "duration": 15416580565,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "User clicks on the Expenses functionality",
+            "match": {
+              "location": "Creating_exp_officer.user_clicks_on_the_Expenses_functionality()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23405,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User clicks on the Create button",
+            "match": {
+              "location": "Creating_exp_officer.user_clicks_on_the_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15370,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user fills out the expense description",
+            "match": {
+              "location": "Creating_exp_officer.user_fills_out_the_expense_description()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12280,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "User clicks on the product dropdown",
+            "match": {
+              "location": "Creating_exp_officer.user_clicks_on_the_product_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11713,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User enters unlisted product and adds it",
+            "match": {
+              "location": "Creating_exp_officer.user_enters_unlisted_product_and_adds_it()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10892,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User clicks on the unit price module",
+            "match": {
+              "location": "Creating_exp_officer.user_clicks_on_the_unit_price_module()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10546,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User clicks on the quantity module",
+            "match": {
+              "location": "Creating_exp_officer.user_clicks_on_the_quantity_module()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23489,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "User clicks on the Employee dropdown",
+            "match": {
+              "location": "Creating_exp_officer.user_clicks_on_the_Employee_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10607,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "User clicks on the Notes box",
+            "match": {
+              "location": "Creating_exp_officer.user_clicks_on_the_Notes_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10691,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "User clicks on the save button",
+            "match": {
+              "location": "Creating_exp_officer.user_clicks_on_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10406,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "User sees error message",
+            "match": {
+              "location": "Creating_exp_officer.user_sees_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      }
+    ],
+    "name": "Expenses",
+    "description": "  Agile Story: As a user I should be able to create expenses so that I can submit to Manager",
+    "id": "expenses",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/create_expenses_officer.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

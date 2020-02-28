@@ -12,6 +12,6 @@ import org.junit.runner.RunWith;
         dryRun = false,
         tags = "@positive, @negative"
 )
-public class CukesRunner {
+public class CukesRunnerAiganysh {
 
 }
