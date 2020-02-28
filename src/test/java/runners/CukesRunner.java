@@ -8,7 +8,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "step_definitions",
-        plugin ="json:target/Destination/cucumber.json"
+        plugin ="json:target/Destination/cucumber.json",
+        dryRun = false,
+        tags = "@login,@GoToReport,@CheckSubmittedList"
 )
 public class CukesRunner {
 
