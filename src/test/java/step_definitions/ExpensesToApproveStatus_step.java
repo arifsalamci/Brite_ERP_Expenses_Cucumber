@@ -23,7 +23,6 @@ public class ExpensesToApproveStatus_step {
     public void user_Go_to_the_BRIDE_ERP_web_page() throws InterruptedException {
 
         Driver.getDriver().get(Config.getProperty("url"));
-        
 
     }
 
