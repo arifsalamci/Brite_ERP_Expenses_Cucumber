@@ -17,7 +17,6 @@ Feature: As user I should be able to see all submitted / refused / approved stat
 
     Then User should be able to see how many approved status
 
-
   Scenario: Verification submitted / approved / refuse expenses
 
     When User Go to the BRIDE ERP web page
