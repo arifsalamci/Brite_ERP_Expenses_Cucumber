@@ -8,8 +8,10 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "step_definitions",
-        plugin ="json:target/Destination/cucumber.json"
+        plugin ={"pretty:target/Destination/cucumber.json","html:target/Destination/cucumber-reports"},
+        dryRun = false,
+        tags="@smoke  "
 )
-public class CukesRunner {
+public class CukesRunnerMAX {
 
 }
