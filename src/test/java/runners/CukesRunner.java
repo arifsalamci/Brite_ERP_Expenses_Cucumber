@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
         glue = "step_definitions",
         plugin ="html:target/cucumber-reports, json:target/Destination/cucumber-report",
         dryRun = false,
-        tags = "@smoke"
+        tags = "@login, @GoToReport,@CheckSubmittedList"
 
- )
 public class CukesRunner {
+
 }
