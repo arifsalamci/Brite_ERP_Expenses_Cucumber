@@ -88,6 +88,9 @@ public class Expense_Reports_To_Approve_Page {
     @FindBy(xpath = "//input[@class='o_field_char o_field_widget o_input o_required_modifier']")
     public WebElement refuseInputBox;
 
+    @FindBy(xpath = "//div[@class='o_main_content']//div//ol//li")
+    public WebElement headerOfExpenseReportToApprove;
+
     @FindBy(xpath = "//button[@class='btn btn-sm oe_highlight']")
     public WebElement refuseButton2;
 
@@ -96,5 +99,15 @@ public class Expense_Reports_To_Approve_Page {
 
     @FindBy(xpath = "//ul[@class='dropdown-menu o_searchview_autocomplete']//li[3]")
     public WebElement SubmittedDropDown;
+
+
+    @FindBy(xpath = "//span[.='[@#$%^&8] person']")
+    public WebElement expenseName;
+
+    @FindBy(name = "expense_refuse_reason")
+    public WebElement refuseInWindow;
+
+    @FindBy(xpath = "//tbody//tr[1]//td[6]")
+    public WebElement refusedExpenseInList;
 
 }

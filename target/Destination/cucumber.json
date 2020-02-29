@@ -1,1 +1,338 @@
-[]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Login as a manager and try to refuse it",
+        "description": "",
+        "id": "expenses-module;login-as-a-manager-and-try-to-refuse-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5955737300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on login page",
+            "match": {
+              "location": "Arif_StepDefs.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 246872100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User puts credentials in \"username\" and \"password\" box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 40
+                }
+              ],
+              "location": "Arif_StepDefs.user_puts_credentials_in_and_box(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1490832300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "Arif_StepDefs.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2008633000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "It should navigate user to landing page",
+            "match": {
+              "location": "Arif_StepDefs.it_should_navigate_user_to_landing_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 85832700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks Expenses module at the top",
+            "match": {
+              "location": "Arif_StepDefs.user_clicks_Expenses_module_at_the_top()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5923400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "It should navigate to Expenses page",
+            "match": {
+              "location": "Arif_StepDefs.it_should_navigate_to_Expenses_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 68161900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on Expense Reports to Approve at the left side",
+            "match": {
+              "location": "Arif_StepDefs.click_on_Expense_Reports_to_Approve_at_the_left_side()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9105400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "It should navigate to Expense Reports to Approve page",
+            "match": {
+              "location": "Arif_StepDefs.it_should_navigate_to_Expense_Reports_to_Approve_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2041197700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify that there is a filter called To Approved",
+            "match": {
+              "location": "Arif_StepDefs.verify_that_there_is_a_filter_called_To_Approved()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2055180700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should verify that there is a filter called To Approved",
+            "match": {
+              "location": "Arif_StepDefs.user_should_verify_that_there_is_a_filter_called_To_Approved()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2106407100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User cancels the filter To Approved option",
+            "match": {
+              "location": "Arif_StepDefs.user_cancels_the_filter_To_Approved_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1685553400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should be able to cancel the filter",
+            "match": {
+              "location": "Arif_StepDefs.user_should_be_able_to_cancel_the_filter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 912015100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User  verifies that all list of any kind of expenses should be displayed",
+            "match": {
+              "location": "Arif_StepDefs.user_verifies_that_all_list_of_any_kind_of_expenses_should_be_displayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 859750500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should be able to cancel the filter",
+            "match": {
+              "location": "Arif_StepDefs.user_should_be_able_to_cancel_the_filter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 121419800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on one of the submitted expenses displayed in the list",
+            "match": {
+              "location": "Arif_StepDefs.user_clicks_on_one_of_the_submitted_expenses_displayed_in_the_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 487559700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "It should navigate to page of that expenses",
+            "match": {
+              "location": "Arif_StepDefs.it_should_navigate_to_page_of_that_expenses()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53690900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User verifies there is a Refuse button right next to Approve button",
+            "match": {
+              "location": "Arif_StepDefs.user_verifies_there_is_a_Refuse_button_right_next_to_Approve_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 140350200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Refuse button should be displayed",
+            "match": {
+              "location": "Arif_StepDefs.refuse_button_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45874100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User clicks Refuse button next to Approve button",
+            "match": {
+              "location": "Arif_StepDefs.userClicksRefuseButtonNextToApproveButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2237289800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User writes the reason of refusing",
+            "match": {
+              "location": "Arif_StepDefs.user_writes_the_reason_of_refusing()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83834800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User clicks Refuse button in window",
+            "match": {
+              "location": "Arif_StepDefs.user_clicks_Refuse_button_in_window()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2148821900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User clicks on Expense Reports to Approve again",
+            "match": {
+              "location": "Arif_StepDefs.user_clicks_on_Expense_Reports_to_Approve_again()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40923200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "It should navigate to page of list of all expenses",
+            "match": {
+              "location": "Arif_StepDefs.it_should_navigate_to_page_of_list_of_all_expenses()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2450141500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User cancels the filter To Approved option",
+            "match": {
+              "location": "Arif_StepDefs.user_cancels_the_filter_To_Approved_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60326100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Refused expense should be shown as refused int the list",
+            "match": {
+              "location": "Arif_StepDefs.refused_expense_should_be_shown_as_refused_int_the_list()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Arif"
+          }
+        ]
+      }
+    ],
+    "name": "Expenses Module",
+    "description": "  Story:As a User have to be able to go to Expense Reports to Approve functionality and see all the\n  Expense Sheet and refuse it.",
+    "id": "expenses-module",
+    "keyword": "Feature",
+    "uri": "C:/Users/Arif-Busra/IdeaProjects/Brite_ERP_Expenses_Cucumber/src/test/resources/features/arif.feature",
+    "tags": []
+  }
+]
