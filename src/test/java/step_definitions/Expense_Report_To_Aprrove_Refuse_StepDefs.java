@@ -17,7 +17,7 @@ import utilities.Driver;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Arif_StepDefs {
+public class Expense_Report_To_Aprrove_Refuse_StepDefs {
 
         Expense_Reports_To_Approve_Page expense_reports_to_approve_page = new Expense_Reports_To_Approve_Page();
         Login_Page login_page = new Login_Page();

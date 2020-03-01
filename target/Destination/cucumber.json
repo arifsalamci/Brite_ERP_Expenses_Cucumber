@@ -12,19 +12,19 @@
         "steps": [
           {
             "result": {
-              "duration": 5955737300,
+              "duration": 6321447400,
               "status": "passed"
             },
             "line": 7,
             "name": "User is on login page",
             "match": {
-              "location": "Arif_StepDefs.user_is_on_login_page()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_is_on_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 246872100,
+              "duration": 262428400,
               "status": "passed"
             },
             "line": 8,
@@ -40,283 +40,284 @@
                   "offset": 40
                 }
               ],
-              "location": "Arif_StepDefs.user_puts_credentials_in_and_box(String,String)"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_puts_credentials_in_and_box(String,String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1490832300,
+              "duration": 1584474500,
               "status": "passed"
             },
             "line": 9,
             "name": "User clicks on login button",
             "match": {
-              "location": "Arif_StepDefs.user_clicks_on_login_button()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_clicks_on_login_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2008633000,
+              "duration": 2011704500,
               "status": "passed"
             },
             "line": 10,
             "name": "It should navigate user to landing page",
             "match": {
-              "location": "Arif_StepDefs.it_should_navigate_user_to_landing_page()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.it_should_navigate_user_to_landing_page()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 85832700,
+              "duration": 83233500,
               "status": "passed"
             },
             "line": 11,
             "name": "User clicks Expenses module at the top",
             "match": {
-              "location": "Arif_StepDefs.user_clicks_Expenses_module_at_the_top()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_clicks_Expenses_module_at_the_top()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 5923400,
+              "duration": 6118300,
               "status": "passed"
             },
             "line": 12,
             "name": "It should navigate to Expenses page",
             "match": {
-              "location": "Arif_StepDefs.it_should_navigate_to_Expenses_page()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.it_should_navigate_to_Expenses_page()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 68161900,
+              "duration": 63942500,
               "status": "passed"
             },
             "line": 13,
             "name": "Click on Expense Reports to Approve at the left side",
             "match": {
-              "location": "Arif_StepDefs.click_on_Expense_Reports_to_Approve_at_the_left_side()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.click_on_Expense_Reports_to_Approve_at_the_left_side()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 9105400,
+              "duration": 6517900,
               "status": "passed"
             },
             "line": 14,
             "name": "It should navigate to Expense Reports to Approve page",
             "match": {
-              "location": "Arif_StepDefs.it_should_navigate_to_Expense_Reports_to_Approve_page()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.it_should_navigate_to_Expense_Reports_to_Approve_page()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2041197700,
+              "duration": 2042340700,
               "status": "passed"
             },
             "line": 15,
             "name": "Verify that there is a filter called To Approved",
             "match": {
-              "location": "Arif_StepDefs.verify_that_there_is_a_filter_called_To_Approved()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.verify_that_there_is_a_filter_called_To_Approved()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2055180700,
+              "duration": 2026476500,
               "status": "passed"
             },
             "line": 16,
             "name": "User should verify that there is a filter called To Approved",
             "match": {
-              "location": "Arif_StepDefs.user_should_verify_that_there_is_a_filter_called_To_Approved()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_should_verify_that_there_is_a_filter_called_To_Approved()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2106407100,
+              "duration": 2064442500,
               "status": "passed"
             },
             "line": 17,
             "name": "User cancels the filter To Approved option",
             "match": {
-              "location": "Arif_StepDefs.user_cancels_the_filter_To_Approved_option()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_cancels_the_filter_To_Approved_option()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1685553400,
+              "duration": 1027830000,
               "status": "passed"
             },
             "line": 18,
             "name": "User should be able to cancel the filter",
             "match": {
-              "location": "Arif_StepDefs.user_should_be_able_to_cancel_the_filter()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_should_be_able_to_cancel_the_filter()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 912015100,
+              "duration": 617888600,
               "status": "passed"
             },
             "line": 19,
             "name": "User  verifies that all list of any kind of expenses should be displayed",
             "match": {
-              "location": "Arif_StepDefs.user_verifies_that_all_list_of_any_kind_of_expenses_should_be_displayed()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_verifies_that_all_list_of_any_kind_of_expenses_should_be_displayed()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 859750500,
+              "duration": 588077500,
               "status": "passed"
             },
             "line": 20,
             "name": "User should be able to cancel the filter",
             "match": {
-              "location": "Arif_StepDefs.user_should_be_able_to_cancel_the_filter()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_should_be_able_to_cancel_the_filter()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 121419800,
+              "duration": 64383000,
               "status": "passed"
             },
             "line": 21,
             "name": "User clicks on one of the submitted expenses displayed in the list",
             "match": {
-              "location": "Arif_StepDefs.user_clicks_on_one_of_the_submitted_expenses_displayed_in_the_list()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_clicks_on_one_of_the_submitted_expenses_displayed_in_the_list()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 487559700,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[.\u003d\u0027[@#$%^\u00268] person\u0027]\"}\n  (Session info: chrome\u003d80.0.3987.122)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-5QB1BJR\u0027, ip: \u002710.1.10.245\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\\Users\\ARIF-B~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:65002}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 365de65a31d1149887c084dbcf0a771b\n*** Element info: {Using\u003dxpath, value\u003d//span[.\u003d\u0027[@#$%^\u00268] person\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.getText(Unknown Source)\r\n\tat step_definitions.Expense_Report_To_Aprrove_Refuse_StepDefs.it_should_navigate_to_page_of_that_expenses(Expense_Report_To_Aprrove_Refuse_StepDefs.java:143)\r\n\tat ✽.It should navigate to page of that expenses(src/test/resources/features/arif.feature:22)\r\n",
+              "duration": 15062573000,
+              "status": "failed"
             },
             "line": 22,
             "name": "It should navigate to page of that expenses",
             "match": {
-              "location": "Arif_StepDefs.it_should_navigate_to_page_of_that_expenses()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.it_should_navigate_to_page_of_that_expenses()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 53690900,
-              "status": "passed"
+              "duration": 7200,
+              "status": "skipped"
             },
             "line": 23,
             "name": "User verifies there is a Refuse button right next to Approve button",
             "match": {
-              "location": "Arif_StepDefs.user_verifies_there_is_a_Refuse_button_right_next_to_Approve_button()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_verifies_there_is_a_Refuse_button_right_next_to_Approve_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 140350200,
-              "status": "passed"
+              "duration": 3700,
+              "status": "skipped"
             },
             "line": 24,
             "name": "Refuse button should be displayed",
             "match": {
-              "location": "Arif_StepDefs.refuse_button_should_be_displayed()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.refuse_button_should_be_displayed()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 45874100,
-              "status": "passed"
+              "duration": 2500,
+              "status": "skipped"
             },
             "line": 25,
             "name": "User clicks Refuse button next to Approve button",
             "match": {
-              "location": "Arif_StepDefs.userClicksRefuseButtonNextToApproveButton()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.userClicksRefuseButtonNextToApproveButton()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2237289800,
-              "status": "passed"
+              "duration": 2300,
+              "status": "skipped"
             },
             "line": 26,
             "name": "User writes the reason of refusing",
             "match": {
-              "location": "Arif_StepDefs.user_writes_the_reason_of_refusing()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_writes_the_reason_of_refusing()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 83834800,
-              "status": "passed"
+              "duration": 2300,
+              "status": "skipped"
             },
             "line": 27,
             "name": "User clicks Refuse button in window",
             "match": {
-              "location": "Arif_StepDefs.user_clicks_Refuse_button_in_window()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_clicks_Refuse_button_in_window()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2148821900,
-              "status": "passed"
+              "duration": 2200,
+              "status": "skipped"
             },
             "line": 28,
             "name": "User clicks on Expense Reports to Approve again",
             "match": {
-              "location": "Arif_StepDefs.user_clicks_on_Expense_Reports_to_Approve_again()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_clicks_on_Expense_Reports_to_Approve_again()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 40923200,
-              "status": "passed"
+              "duration": 2200,
+              "status": "skipped"
             },
             "line": 29,
             "name": "It should navigate to page of list of all expenses",
             "match": {
-              "location": "Arif_StepDefs.it_should_navigate_to_page_of_list_of_all_expenses()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.it_should_navigate_to_page_of_list_of_all_expenses()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2450141500,
-              "status": "passed"
+              "duration": 2200,
+              "status": "skipped"
             },
             "line": 30,
             "name": "User cancels the filter To Approved option",
             "match": {
-              "location": "Arif_StepDefs.user_cancels_the_filter_To_Approved_option()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_cancels_the_filter_To_Approved_option()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 60326100,
-              "status": "passed"
+              "duration": 2100,
+              "status": "skipped"
             },
             "line": 31,
             "name": "Refused expense should be shown as refused int the list",
             "match": {
-              "location": "Arif_StepDefs.refused_expense_should_be_shown_as_refused_int_the_list()"
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.refused_expense_should_be_shown_as_refused_int_the_list()"
             },
             "keyword": "Then "
           }
@@ -332,7 +333,7 @@
     "description": "  Story:As a User have to be able to go to Expense Reports to Approve functionality and see all the\n  Expense Sheet and refuse it.",
     "id": "expenses-module",
     "keyword": "Feature",
-    "uri": "C:/Users/Arif-Busra/IdeaProjects/Brite_ERP_Expenses_Cucumber/src/test/resources/features/arif.feature",
+    "uri": "src/test/resources/features/arif.feature",
     "tags": []
   }
 ]
