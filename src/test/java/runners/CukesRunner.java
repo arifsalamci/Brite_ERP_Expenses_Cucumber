@@ -8,10 +8,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "step_definitions",
-        plugin ="html:target/cucumber-reports",
-        dryRun = false,
-        tags = "@positive, @negative"
+        plugin ="json:target/Destination/cucumber.json",
+        tags = "@login,@GoToReport,@CheckSubmittedList"
 )
-public class CukesRunnerAiganysh {
+public class CukesRunner {
 
 }
