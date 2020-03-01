@@ -3,417 +3,140 @@
     "line": 2,
     "elements": [
       {
-        "line": 6,
-        "name": "Creating expense as an Officer positive",
+        "before": [
+          {
+            "result": {
+              "duration": 774000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Verification create report functionality",
         "description": "",
-        "id": "expenses;creating-expense-as-an-officer-positive",
+        "id": "expenses-module;verification-create-report-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 619150400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 14357040743,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User clicks on the Expenses functionality",
-            "match": {
-              "location": "Creating_exp_officer.user_clicks_on_the_Expenses_functionality()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2050809801,
+              "duration": 8678393200,
               "status": "passed"
             },
             "line": 9,
-            "name": "User clicks on the Create button",
+            "name": "User on the landing page of the app",
             "match": {
-              "location": "Creating_exp_officer.user_clicks_on_the_Create_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1241053838,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user fills out the expense description",
-            "match": {
-              "location": "Creating_exp_officer.user_fills_out_the_expense_description()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3237576138,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User clicks on the product dropdown",
-            "match": {
-              "location": "Creating_exp_officer.user_clicks_on_the_product_dropdown()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 132555,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "User clicks on the unit price module",
-            "match": {
-              "location": "Creating_exp_officer.user_clicks_on_the_unit_price_module()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 65187,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "User clicks on the quantity module",
-            "match": {
-              "location": "Creating_exp_officer.user_clicks_on_the_quantity_module()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3222079408,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "User clicks on the Employee dropdown",
-            "match": {
-              "location": "Creating_exp_officer.user_clicks_on_the_Employee_dropdown()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 94524,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "User clicks on the Notes box",
-            "match": {
-              "location": "Creating_exp_officer.user_clicks_on_the_Notes_box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 138555292,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "User clicks on the save button",
-            "match": {
-              "location": "Creating_exp_officer.user_clicks_on_the_save_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4358743312,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "User clicks on the Submit to Manager button",
-            "match": {
-              "location": "Creating_exp_officer.user_clicks_on_the_Submit_to_Manager_button()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@positive"
-          }
-        ]
-      },
-      {
-        "line": 20,
-        "name": "Creating expense as an Officer negative",
-        "description": "",
-        "id": "expenses;creating-expense-as-an-officer-negative",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#login\"}\n  (Session info: chrome\u003d80.0.3987.122)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Aiganyshs-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:1c01:7c0c:8707:9b9a%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.1\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/z8/vm6ykghn29l...}, goog:chromeOptions: {debuggerAddress: localhost:62125}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 88b13b557574e36c7cad5a4a9233baec\n*** Element info: {Using\u003did, value\u003dlogin}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy16.sendKeys(Unknown Source)\n\tat step_definitions.Creating_exp_officer.user_clicks_on_the_Expenses_functionality(Creating_exp_officer.java:20)\n\tat ✽.User clicks on the Expenses functionality(src/test/resources/features/create_expenses_officer.feature:22)\n",
-              "duration": 15416580565,
-              "status": "failed"
-            },
-            "line": 22,
-            "name": "User clicks on the Expenses functionality",
-            "match": {
-              "location": "Creating_exp_officer.user_clicks_on_the_Expenses_functionality()"
+              "location": "ExpencesReportToTable_step_definitions.user_on_the_landing_page_of_the_app()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 23405,
-              "status": "skipped"
-            },
-            "line": 23,
-            "name": "User clicks on the Create button",
-            "match": {
-              "location": "Creating_exp_officer.user_clicks_on_the_Create_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 15370,
-              "status": "skipped"
-            },
-            "line": 24,
-            "name": "user fills out the expense description",
-            "match": {
-              "location": "Creating_exp_officer.user_fills_out_the_expense_description()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 12280,
-              "status": "skipped"
-            },
-            "line": 25,
-            "name": "User clicks on the product dropdown",
-            "match": {
-              "location": "Creating_exp_officer.user_clicks_on_the_product_dropdown()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 11713,
-              "status": "skipped"
-            },
-            "line": 26,
-            "name": "User enters unlisted product and adds it",
-            "match": {
-              "location": "Creating_exp_officer.user_enters_unlisted_product_and_adds_it()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 10892,
-              "status": "skipped"
-            },
-            "line": 27,
-            "name": "User clicks on the unit price module",
-            "match": {
-              "location": "Creating_exp_officer.user_clicks_on_the_unit_price_module()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 10546,
-              "status": "skipped"
-            },
-            "line": 28,
-            "name": "User clicks on the quantity module",
-            "match": {
-              "location": "Creating_exp_officer.user_clicks_on_the_quantity_module()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 23489,
-              "status": "skipped"
-            },
-            "line": 29,
-            "name": "User clicks on the Employee dropdown",
-            "match": {
-              "location": "Creating_exp_officer.user_clicks_on_the_Employee_dropdown()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 10607,
-              "status": "skipped"
-            },
-            "line": 30,
-            "name": "User clicks on the Notes box",
-            "match": {
-              "location": "Creating_exp_officer.user_clicks_on_the_Notes_box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 10691,
-              "status": "skipped"
-            },
-            "line": 31,
-            "name": "User clicks on the save button",
-            "match": {
-              "location": "Creating_exp_officer.user_clicks_on_the_save_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 10406,
-              "status": "skipped"
-            },
-            "line": 32,
-            "name": "User sees error message",
-            "match": {
-              "location": "Creating_exp_officer.user_sees_error_message()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@negative"
-          }
-        ]
-      }
-    ],
-    "name": "Expenses",
-    "description": "  Agile Story: As a user I should be able to create expenses so that I can submit to Manager",
-    "id": "expenses",
-    "keyword": "Feature",
-    "uri": "src/test/resources/features/create_expenses_officer.feature",
-    "tags": [
-      {
-        "name": "@smoke",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
-  }
-]
-[
-  {
-    "line": 2,
-    "elements": [
-      {
-        "line": 4,
-        "name": "Verification submitted / approved / refuse expenses",
-        "description": "",
-        "id": "as-user-i-should-be-able-to-see-all-submitted-/-refused-/-approved-statuses;verification-submitted-/-approved-/-refuse-expenses",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3787527853,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User Go to the BRIDE ERP web page",
-            "match": {
-              "location": "ExpensesToApproveStatus_step.user_Go_to_the_BRIDE_ERP_web_page()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2190716296,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User  logged into BRIDE ERP Manager account and on Expenses page",
-            "match": {
-              "location": "ExpensesToApproveStatus_step.user_logged_into_BRIDE_ERP_Manager_account_and_on_Expenses_page()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 69478611,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User Click on Expense Reports to Approve",
-            "match": {
-              "location": "ExpensesToApproveStatus_step.user_Click_on_Expense_Reports_to_Approve()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3062538505,
+              "duration": 613364400,
               "status": "passed"
             },
             "line": 10,
-            "name": "Remove to approve filter on the search box",
+            "name": "User press Expensess Horizontal Sidebar",
             "match": {
-              "location": "ExpensesToApproveStatus_step.remove_to_approve_filter_on_the_search_box()"
+              "location": "ExpencesReportToTable_step_definitions.user_press_Expensess_Horizontal_Sidebar()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 298296706,
+              "duration": 58774900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Expenses page open and User Press Expenses Report Sidebar",
+            "match": {
+              "location": "ExpencesReportToTable_step_definitions.expenses_page_open_and_User_Press_Expenses_Report_Sidebar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2056956700,
               "status": "passed"
             },
             "line": 12,
-            "name": "Enter Approved on search box",
+            "name": "My reports page open and User Press create button",
             "match": {
-              "location": "ExpensesToApproveStatus_step.enter_Approved_on_search_box()"
+              "location": "ExpencesReportToTable_step_definitions.my_reports_page_open_and_User_Press_create_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 127612332,
+              "duration": 1234039600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Expenses Report frame popup and User fill up all information and press Add an item button",
+            "match": {
+              "location": "ExpencesReportToTable_step_definitions.expenses_Report_frame_popup_and_User_fill_up_all_information_and_press_Add_an_item_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3211913400,
               "status": "passed"
             },
             "line": 14,
-            "name": "Fined the to approved filter on the search box and click on it",
+            "name": "Expense Lines page open",
             "match": {
-              "location": "ExpensesToApproveStatus_step.fined_the_to_approved_filter_on_the_search_box_and_click_on_it()"
+              "location": "ExpencesReportToTable_step_definitions.expense_Lines_page_open()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2874256406,
+              "duration": 161871400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User select item and press select button",
+            "match": {
+              "location": "ExpencesReportToTable_step_definitions.user_select_item_and_press_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61446000,
               "status": "passed"
             },
             "line": 16,
-            "name": "count and print all approved expenses",
+            "name": "User press Save button",
             "match": {
-              "location": "ExpensesToApproveStatus_step.count_and_print_all_approved_expenses()"
+              "location": "ExpencesReportToTable_step_definitions.user_press_Save_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2573352384,
+              "duration": 881921000,
               "status": "passed"
             },
-            "line": 18,
-            "name": "User should be able to see how many approved status",
+            "line": 17,
+            "name": "confirmation message :Expense report submitted, waiting approval should be displayed",
             "match": {
-              "location": "ExpensesToApproveStatus_step.user_should_be_able_to_see_how_many_approved_status()"
+              "location": "ExpencesReportToTable_step_definitions.confirmation_message_Expense_report_submitted_waiting_approval_should_be_displayed()"
             },
             "keyword": "Then "
           }
@@ -425,217 +148,104 @@
         ]
       },
       {
-        "line": 21,
-        "name": "Verification submitted / approved / refuse expenses",
+        "before": [
+          {
+            "result": {
+              "duration": 50800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verification Expense Reports To Aprove",
         "description": "",
-        "id": "as-user-i-should-be-able-to-see-all-submitted-/-refused-/-approved-statuses;verification-submitted-/-approved-/-refuse-expenses",
+        "id": "expenses-module;verification-expense-reports-to-aprove",
+        "after": [
+          {
+            "result": {
+              "duration": 638342400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2864119282,
+              "duration": 6380895800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User on the landing page of the app",
+            "match": {
+              "location": "ExpencesReportToTable_step_definitions.user_on_the_landing_page_of_the_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 528886500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User press Expensess Horizontal Sidebar",
+            "match": {
+              "location": "ExpencesReportToTable_step_definitions.user_press_Expensess_Horizontal_Sidebar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64601700,
               "status": "passed"
             },
             "line": 23,
-            "name": "User Go to the BRIDE ERP web page",
+            "name": "Expenses page open and User Press Expense Reports to Approve",
             "match": {
-              "location": "ExpensesToApproveStatus_step.user_Go_to_the_BRIDE_ERP_web_page()"
+              "location": "ExpencesReportToTable_step_definitions.expenses_page_open_and_User_Press_Expense_Reports_to_Approve()"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 2626195211,
+              "duration": 66200,
               "status": "passed"
             },
             "line": 24,
-            "name": "User  logged into BRIDE ERP Manager account and on Expenses page",
+            "name": "Expenses reports to approve Table should be displayed",
             "match": {
-              "location": "ExpensesToApproveStatus_step.user_logged_into_BRIDE_ERP_Manager_account_and_on_Expenses_page()"
+              "location": "ExpencesReportToTable_step_definitions.expenses_reports_to_approve_Table_should_be_displayed()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 100307974,
+              "duration": 1924988200,
               "status": "passed"
             },
             "line": 25,
-            "name": "User Click on Expense Reports to Approve",
+            "name": "User choose created report",
             "match": {
-              "location": "ExpensesToApproveStatus_step.user_Click_on_Expense_Reports_to_Approve()"
+              "location": "ExpencesReportToTable_step_definitions.user_choose_created_report()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 3059375211,
+              "duration": 485990800,
               "status": "passed"
             },
-            "line": 27,
-            "name": "Remove to approve filter on the search box",
+            "line": 26,
+            "name": "Created report should open, all information inside the report should match entered information",
             "match": {
-              "location": "ExpensesToApproveStatus_step.remove_to_approve_filter_on_the_search_box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 255226065,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "Enter Refuse on search box",
-            "match": {
-              "location": "ExpensesToApproveStatus_step.enter_Refuse_on_search_box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 68269694,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "Fined the Refuse filter and click on it",
-            "match": {
-              "location": "ExpensesToApproveStatus_step.fined_the_Refuse_filter_and_click_on_it()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2624956165,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "count and print all Refuse expenses",
-            "match": {
-              "location": "ExpensesToApproveStatus_step.count_and_print_all_Refuse_expenses()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2457032411,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "User should be able to see how many Refuse status",
-            "match": {
-              "location": "ExpensesToApproveStatus_step.user_should_be_able_to_see_how_many_Refuse_status()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "line": 37,
-        "name": "Verification submitted / approved / refuse expenses",
-        "description": "",
-        "id": "as-user-i-should-be-able-to-see-all-submitted-/-refused-/-approved-statuses;verification-submitted-/-approved-/-refuse-expenses",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2409824348,
-              "status": "passed"
-            },
-            "line": 39,
-            "name": "User Go to the BRIDE ERP web page",
-            "match": {
-              "location": "ExpensesToApproveStatus_step.user_Go_to_the_BRIDE_ERP_web_page()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1927860960,
-              "status": "passed"
-            },
-            "line": 40,
-            "name": "User  logged into BRIDE ERP Manager account and on Expenses page",
-            "match": {
-              "location": "ExpensesToApproveStatus_step.user_logged_into_BRIDE_ERP_Manager_account_and_on_Expenses_page()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 99531938,
-              "status": "passed"
-            },
-            "line": 41,
-            "name": "User Click on Expense Reports to Approve",
-            "match": {
-              "location": "ExpensesToApproveStatus_step.user_Click_on_Expense_Reports_to_Approve()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3059983048,
-              "status": "passed"
-            },
-            "line": 42,
-            "name": "Remove to approve filter on the search box",
-            "match": {
-              "location": "ExpensesToApproveStatus_step.remove_to_approve_filter_on_the_search_box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2178513690,
-              "status": "passed"
-            },
-            "line": 44,
-            "name": "Enter Submitted on search box",
-            "match": {
-              "location": "ExpensesToApproveStatus_step.enter_Submitted_on_search_box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2059315291,
-              "status": "passed"
-            },
-            "line": 46,
-            "name": "Fined the Submitted filter and click on it",
-            "match": {
-              "location": "ExpensesToApproveStatus_step.fined_the_Submitted_filter_and_click_on_it()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2533240887,
-              "status": "passed"
-            },
-            "line": 48,
-            "name": "count and print all Submitted expenses",
-            "match": {
-              "location": "ExpensesToApproveStatus_step.count_and_print_all_Submitted_expenses()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2298096237,
-              "status": "passed"
-            },
-            "line": 51,
-            "name": "User should be able to see how many Submitted status",
-            "match": {
-              "location": "ExpensesToApproveStatus_step.user_should_be_able_to_see_how_many_Submitted_status()"
+              "location": "ExpencesReportToTable_step_definitions.created_report_should_open_all_information_inside_the_report_should_match_entered_information()"
             },
             "keyword": "Then "
           }
@@ -647,11 +257,11 @@
         ]
       }
     ],
-    "name": "As user I should be able to see all submitted / refused / approved statuses",
-    "description": "",
-    "id": "as-user-i-should-be-able-to-see-all-submitted-/-refused-/-approved-statuses",
+    "name": "Expenses Module",
+    "description": "Agile Story:As a User i should be able to create Expense Report,\nso that report will be stored in The Expense to Approve Table",
+    "id": "expenses-module",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/expensesToApproveStatus.feature",
+    "uri": "src/test/resources/features/expencesReportToTable.feature",
     "tags": [
       {
         "name": "@smoke",

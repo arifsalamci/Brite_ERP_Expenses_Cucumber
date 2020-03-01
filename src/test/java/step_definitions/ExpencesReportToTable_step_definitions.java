@@ -22,7 +22,7 @@ Expense_Reports_To_Approve_Page expense_reports_to_approve_page = new Expense_Re
 
     @Given("User on the landing page of the app")
     public void user_on_the_landing_page_of_the_app() {
-    Driver.getDriver().get(Config.getProperty("briteErpUrl"));
+    Driver.getDriver().get(Config.getProperty("url"));
     login_page.emailInput.sendKeys(Config.getProperty("email"));
     login_page.passwordInput.sendKeys(Config.getProperty("password"));
     login_page.loginButton.click();
