@@ -30,7 +30,7 @@ public class Expenses_To_Submit_Page {
     @FindBy(xpath = "//a[.='[CARD] Apple80']")
     public WebElement chosenProduct;
 
-    @FindBy(xpath = "//input[@id='o_field_input_65']")
+    @FindBy(xpath = "//input[@id='o_field_input_21']")
     public WebElement unitPriceInput;
 
     @FindBy(xpath = "//input[@id='o_field_input_70']")
@@ -39,7 +39,7 @@ public class Expenses_To_Submit_Page {
     @FindBy(xpath = "//div[@name='employee_id']/div")
     public WebElement employeeField;
 
-    @FindBy(xpath = "//a[.='Anthony Bourdain']")
+    @FindBy(xpath = "//a[.='David Samson'][1]")
     public WebElement employeeName;
 
     @FindBy(xpath = "//button[@class='btn btn-primary btn-sm o_form_button_save']")
@@ -51,7 +51,7 @@ public class Expenses_To_Submit_Page {
     @FindBy(xpath = "//button[.='Approve']")
     public WebElement approveButton;
 
-    @FindBy(xpath = "//li[.='lunch with team']")
+    @FindBy(xpath = "//div[@class='o_thread_message_content']")
     public WebElement textAfterSave;
 
     @FindBy (xpath = "(//div[@class='o_thread_message_content']/p)[1]")
@@ -59,5 +59,28 @@ public class Expenses_To_Submit_Page {
 
     @FindBy(xpath = "//p[.='Expense created']")
     public WebElement expenseCreatedText;
+
+    @FindBy(xpath = "//li[.='[253] Tshirt'][1]")
+    public WebElement productTshirt;
+
+    @FindBy(xpath = "(//button[@class='btn btn-sm btn-primary'])[1]")
+    public WebElement newproductcreate;
+
+    @FindBy(xpath = "(//button[@class='btn btn-sm btn-primary'])[2]")
+    public WebElement okButton;
+
+    @FindBy(xpath = "(//h4[@class='modal-title'])[1]")
+    public WebElement errormessage;
+
+    @FindBy(xpath = "(//table[@class='o_group o_inner_group o_group_col_6'][1])")
+    public WebElement table;
+
+    @FindBy(xpath = "//button[@class='btn btn-sm btn-default o_form_button_cancel']")
+    public WebElement discardButton;
+
+    @FindBy(xpath = "//button[@class='btn btn-sm btn-default']")
+    public WebElement cancelButton;
+
+
 
 }

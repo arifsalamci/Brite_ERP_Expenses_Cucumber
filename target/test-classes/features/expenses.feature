@@ -1,2 +1,1 @@
-Feature: Expenses module
-
+Feature: Expense
