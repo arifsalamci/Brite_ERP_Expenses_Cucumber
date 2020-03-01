@@ -10,8 +10,6 @@
         <module name="B_ERP_Expenses" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="13">
-      <module name="Brite_ERP_Expenses_Cucumber" target="1.8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="13" />
   </component>
 </project>
