@@ -1,3 +1,4 @@
+@smoke
 Feature: Expenses
   Agile Story: As a user I should be able to create expenses so that I can submit to Manager
 
