@@ -2,7 +2,6 @@
 Feature: Expenses
   Agile Story: As a user I should be able to create expenses so that I can submit to Manager
 
-  @positive
   Scenario: Creating expense as an Officer positive
 
     Given User clicks on the Expenses functionality
@@ -17,7 +16,7 @@ Feature: Expenses
     Then User clicks on the Submit to Manager button
 
 
-  @negative
+
   Scenario: Creating expense as an Officer negative
 
     Given User clicks on the Expenses functionality
