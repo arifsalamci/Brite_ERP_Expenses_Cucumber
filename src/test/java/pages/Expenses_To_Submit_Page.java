@@ -19,8 +19,6 @@ public class Expenses_To_Submit_Page {
 
         PageFactory.initElements(Driver.getDriver(), this);
     }
-
-
     @FindBy(xpath = "//li[.='My Expenses to Submit']")
     public WebElement textDisplay;
 
@@ -72,6 +70,7 @@ public class Expenses_To_Submit_Page {
     @FindBy(xpath = "//div[@name='employee_id']/div")
     public WebElement employeeField;
 
+    @FindBy(xpath = "//a[.='David Samson'][1]")
     public static WebElement employeeDropdown(int indexOfEmployee){
         List<WebElement> employee = Driver.getDriver().findElements(By.xpath("(//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content'])[4]/li"));
         return employee.get(indexOfEmployee);
@@ -99,5 +98,28 @@ public class Expenses_To_Submit_Page {
 
     @FindBy(xpath = "//p[.='Expense created']")
     public WebElement expenseCreatedText;
+
+    @FindBy(xpath = "//li[.='[253] Tshirt'][1]")
+    public WebElement productTshirt;
+
+    @FindBy(xpath = "(//button[@class='btn btn-sm btn-primary'])[1]")
+    public WebElement newproductcreate;
+
+    @FindBy(xpath = "(//button[@class='btn btn-sm btn-primary'])[2]")
+    public WebElement okButton;
+
+    @FindBy(xpath = "(//h4[@class='modal-title'])[1]")
+    public WebElement errormessage;
+
+    @FindBy(xpath = "(//table[@class='o_group o_inner_group o_group_col_6'][1])")
+    public WebElement table;
+
+    @FindBy(xpath = "//button[@class='btn btn-sm btn-default o_form_button_cancel']")
+    public WebElement discardButton;
+
+    @FindBy(xpath = "//button[@class='btn btn-sm btn-default']")
+    public WebElement cancelButton;
+
+
 
 }
