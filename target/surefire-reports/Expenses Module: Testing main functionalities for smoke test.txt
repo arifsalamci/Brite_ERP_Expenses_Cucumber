@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Expenses Module: Testing main functionalities for smoke test
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.197 s - in Expenses Module: Testing main functionalities for smoke test
