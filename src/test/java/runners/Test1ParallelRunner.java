@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin ={"html:target/default-cucumber-reports",
                 "json:target/parallel-cucumber4.json"},
-        features = "src/test/resources/features/TecP214.feature",
+        features = "src/test/resources/features/expensesToApproveStatus.feature",
         glue = "step_definitions",
         dryRun = false,
         tags = "@smoke"

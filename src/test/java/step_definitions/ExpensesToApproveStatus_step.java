@@ -198,7 +198,8 @@ public class ExpensesToApproveStatus_step {
             count++;
         }
         System.out.println(count);
-
+Driver.quitDriver();
     }
+
     }
 

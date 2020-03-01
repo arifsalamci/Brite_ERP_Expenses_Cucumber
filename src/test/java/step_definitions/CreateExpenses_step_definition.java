@@ -105,25 +105,4 @@ public class CreateExpenses_step_definition {
      expenseSubmit.expenseDescriptionInput.sendKeys(productDesc);
 Driver.quitDriver();
     }
-
-//    @Given("User chooses {string} in the product dropdown")
-//    public void user_chooses_in_the_product_dropdown(String product) throws IOException {
-//        expenseSubmit.productInput.click();
-//
-//        for (WebElement element : expenseSubmit.list){
-//            if (element.getText().equals(product)){
-//                System.out.println(element.getText());
-//            }
-//        }
-//        System.out.println(s);
-//        System.out.println(expenseSubmit.list.size());
-//        expenseSubmit.productInput.click();
-//        expenseSubmit.productDropdown();
-//    }
-//
-//    @Given("user chooses {string} from employee dropdown")
-//    public void user_chooses_from_employee_dropdown(String employee) {
-//        expenseSubmit.employeeField.click();
-//
-//    }
 }

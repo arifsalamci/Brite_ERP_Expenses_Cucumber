@@ -48,6 +48,7 @@ public class Expense_Report_To_Approve_Approve_StepDefs {
     public void approved_button_should_not_be_displayed() {
         Assert.assertTrue(moduleObject.approveButton.isDisplayed());
 
+        Driver.quitDriver();
     }
 
 }

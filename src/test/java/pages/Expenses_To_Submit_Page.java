@@ -70,12 +70,13 @@ public class Expenses_To_Submit_Page {
     @FindBy(xpath = "//div[@name='employee_id']/div")
     public WebElement employeeField;
 
-    @FindBy(xpath = "//a[.='David Samson'][1]")
+//    @FindBy(xpath = "//a[.='David Samson'][1]")
+
     public static WebElement employeeDropdown(int indexOfEmployee){
         List<WebElement> employee = Driver.getDriver().findElements(By.xpath("(//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content'])[4]/li"));
         return employee.get(indexOfEmployee);
     }
-    @FindBy(xpath = "//a[.='Anthony Bourdain']")
+    @FindBy(xpath = "//a[.='David Samson'][1]")
     public WebElement employeeName;
 
     @FindBy(xpath = "//button[@class='btn btn-primary btn-sm o_form_button_save']")
