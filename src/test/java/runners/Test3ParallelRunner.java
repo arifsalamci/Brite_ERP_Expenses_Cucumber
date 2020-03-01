@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
 //        tags = "@login, @GoToReport, @CheckSubmittedList"
         tags = "@smoke"
 )
-public class CukesParallelRunner {
+public class Test3ParallelRunner {
 
 
 }

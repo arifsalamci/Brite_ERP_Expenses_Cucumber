@@ -15,6 +15,6 @@ import org.junit.runner.RunWith;
 //        tags = "@smoke"
 )
 
-public class expenseParallelRunner {
+public class Test2ParallelRunner {
 
 }
