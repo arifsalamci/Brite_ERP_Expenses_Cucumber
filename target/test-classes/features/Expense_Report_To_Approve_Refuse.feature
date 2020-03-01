@@ -1,7 +1,7 @@
 Feature:Expenses Module
   Story:As a User have to be able to go to Expense Reports to Approve functionality and see all the
   Expense Sheet and refuse it.
-  @Arif
+  @smoke
   Scenario: Login as a manager and try to refuse it
 
     Given User is on login page

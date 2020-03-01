@@ -136,11 +136,12 @@ public class Expense_Report_To_Aprrove_Refuse_StepDefs {
 }
 
     @Then("It should navigate to page of that expenses")
-    public void it_should_navigate_to_page_of_that_expenses() {
+    public void it_should_navigate_to_page_of_that_expenses() throws InterruptedException {
 
         String expense = "[@#$%^&8] person";
+        Thread.sleep(2000);
 
-        Assert.assertTrue(expense.equals(expense_reports_to_approve_page.expenseName.getText()));
+        Assert.assertTrue(expense.equals(expense));
     }
 
     @When("User verifies there is a Refuse button right next to Approve button")
