@@ -3,7 +3,7 @@ Feature:Expenses Module
 Agile Story:As a User i should be able to create Expense Report,
 so that report will be stored in The Expense to Approve Table
 
-  @TestA
+
 Scenario: Verification create report functionality
 
   Given User on the landing page of the app
@@ -15,7 +15,7 @@ Scenario: Verification create report functionality
   And User select item and press select button
   And User press Save button
   Then confirmation message :Expense report submitted, waiting approval should be displayed
-@TestB
+
     Scenario: Verification Expense Reports To Aprove
 
   Given User on the landing page of the app
