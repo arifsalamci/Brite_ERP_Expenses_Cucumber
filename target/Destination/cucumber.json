@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9389294800,
+              "duration": 8053273700,
               "status": "passed"
             },
             "line": 7,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 845624900,
+              "duration": 528155400,
               "status": "passed"
             },
             "line": 8,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 1911781500,
+              "duration": 1209719500,
               "status": "passed"
             },
             "line": 9,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 2172100300,
+              "duration": 2010765400,
               "status": "passed"
             },
             "line": 10,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 129747300,
+              "duration": 69915900,
               "status": "passed"
             },
             "line": 11,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 5516700,
+              "duration": 5934300,
               "status": "passed"
             },
             "line": 12,
@@ -94,7 +94,7 @@
           },
           {
             "result": {
-              "duration": 101436200,
+              "duration": 58443400,
               "status": "passed"
             },
             "line": 13,
@@ -106,7 +106,7 @@
           },
           {
             "result": {
-              "duration": 6639600,
+              "duration": 4890500,
               "status": "passed"
             },
             "line": 14,
@@ -118,7 +118,7 @@
           },
           {
             "result": {
-              "duration": 2128061100,
+              "duration": 2050761200,
               "status": "passed"
             },
             "line": 15,
@@ -130,7 +130,7 @@
           },
           {
             "result": {
-              "duration": 2068474300,
+              "duration": 2028180500,
               "status": "passed"
             },
             "line": 16,
@@ -142,7 +142,7 @@
           },
           {
             "result": {
-              "duration": 2208224400,
+              "duration": 2060385900,
               "status": "passed"
             },
             "line": 17,
@@ -154,7 +154,7 @@
           },
           {
             "result": {
-              "duration": 1525356200,
+              "duration": 1030089600,
               "status": "passed"
             },
             "line": 18,
@@ -166,7 +166,7 @@
           },
           {
             "result": {
-              "duration": 996149000,
+              "duration": 632016100,
               "status": "passed"
             },
             "line": 19,
@@ -178,7 +178,7 @@
           },
           {
             "result": {
-              "duration": 863647200,
+              "duration": 605192600,
               "status": "passed"
             },
             "line": 20,
@@ -190,7 +190,7 @@
           },
           {
             "result": {
-              "duration": 93425000,
+              "duration": 63259200,
               "status": "passed"
             },
             "line": 21,
@@ -202,9 +202,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[.\u003d\u0027[@#$%^\u00268] person\u0027]\"}\n  (Session info: chrome\u003d80.0.3987.122)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-5QB1BJR\u0027, ip: \u002710.1.10.245\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\\Users\\ARIF-B~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:49268}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 2d1ea977649ecf6c145339c3e0f24ced\n*** Element info: {Using\u003dxpath, value\u003d//span[.\u003d\u0027[@#$%^\u00268] person\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.getText(Unknown Source)\r\n\tat step_definitions.Expense_Report_To_Aprrove_Refuse_StepDefs.it_should_navigate_to_page_of_that_expenses(Expense_Report_To_Aprrove_Refuse_StepDefs.java:144)\r\n\tat ✽.It should navigate to page of that expenses(C:/Users/Arif-Busra/IdeaProjects/Brite_ERP_Expenses_Cucumber/src/test/resources/features/Expense_Report_To_Approve_Refuse.feature:22)\r\n",
-              "duration": 17036800900,
-              "status": "failed"
+              "duration": 2000374400,
+              "status": "passed"
             },
             "line": 22,
             "name": "It should navigate to page of that expenses",
@@ -215,8 +214,8 @@
           },
           {
             "result": {
-              "duration": 18900,
-              "status": "skipped"
+              "duration": 30486200,
+              "status": "passed"
             },
             "line": 23,
             "name": "User verifies there is a Refuse button right next to Approve button",
@@ -227,8 +226,8 @@
           },
           {
             "result": {
-              "duration": 11500,
-              "status": "skipped"
+              "duration": 62584500,
+              "status": "passed"
             },
             "line": 24,
             "name": "Refuse button should be displayed",
@@ -239,8 +238,8 @@
           },
           {
             "result": {
-              "duration": 5400,
-              "status": "skipped"
+              "duration": 31997800,
+              "status": "passed"
             },
             "line": 25,
             "name": "User clicks Refuse button next to Approve button",
@@ -251,8 +250,8 @@
           },
           {
             "result": {
-              "duration": 4700,
-              "status": "skipped"
+              "duration": 2165033100,
+              "status": "passed"
             },
             "line": 26,
             "name": "User writes the reason of refusing",
@@ -263,8 +262,8 @@
           },
           {
             "result": {
-              "duration": 4400,
-              "status": "skipped"
+              "duration": 66556300,
+              "status": "passed"
             },
             "line": 27,
             "name": "User clicks Refuse button in window",
@@ -275,8 +274,8 @@
           },
           {
             "result": {
-              "duration": 4200,
-              "status": "skipped"
+              "duration": 2082887600,
+              "status": "passed"
             },
             "line": 28,
             "name": "User clicks on Expense Reports to Approve again",
@@ -287,8 +286,8 @@
           },
           {
             "result": {
-              "duration": 4100,
-              "status": "skipped"
+              "duration": 41066000,
+              "status": "passed"
             },
             "line": 29,
             "name": "It should navigate to page of list of all expenses",
@@ -299,8 +298,8 @@
           },
           {
             "result": {
-              "duration": 4200,
-              "status": "skipped"
+              "duration": 2317347400,
+              "status": "passed"
             },
             "line": 30,
             "name": "User cancels the filter To Approved option",
@@ -311,8 +310,8 @@
           },
           {
             "result": {
-              "duration": 4100,
-              "status": "skipped"
+              "duration": 27719000,
+              "status": "passed"
             },
             "line": 31,
             "name": "Refused expense should be shown as refused int the list",
