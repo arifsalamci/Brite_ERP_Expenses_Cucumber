@@ -16,6 +16,18 @@ public class Expense_Reports_To_Approve_Page {
     }
 
 
+
+
+
+@FindBy(xpath = "(//tr[@class='o_data_row'])[1]")
+public WebElement FirstElementInTable;
+
+    @FindBy(xpath = "//span[@class='o_field_char o_field_widget o_required_modifier']")
+    public WebElement expenceDescriptionFromFrame;
+
+    @FindBy(xpath = "//a[@name='employee_id']")
+    public WebElement employeeNameFromFRame;
+
     @FindBy(xpath = "//a[@data-action-id='546']")
     public WebElement expensesToApprove;
 
