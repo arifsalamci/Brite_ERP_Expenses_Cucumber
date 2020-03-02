@@ -19,17 +19,17 @@ public class Expense_Report_To_Approve_Approve_StepDefs {
 //        moduleObject.expensesModule.click();
 
     }
-
+//
     @When("User click to Expenses Report to Approve user should be navigate this page")
     public void user_click_to_Expenses_Report_to_Approve_user_should_be_navigate_this_page() {
         expenses_main_page.expenseReportsToApprove.click();
-
+//
     }
 
     @Then("The title of the current page should contains {string}")
     public void the_title_of_the_current_page_should_contains(String fuctionPageTitle) {
-        String actualTitle= Driver.getDriver().getTitle();
-        fuctionPageTitle = "Odoo";
+        String actualTitle = Driver.getDriver().getTitle();
+//        fuctionPageTitle = "Odoo";
         Assert.assertTrue(actualTitle.contains(fuctionPageTitle));
     }
 

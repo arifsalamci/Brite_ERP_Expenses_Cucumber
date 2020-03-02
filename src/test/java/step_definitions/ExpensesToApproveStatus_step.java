@@ -10,6 +10,7 @@ import pages.Expense_Reports_To_Approve_Page;
 import pages.Login_Page;
 import utilities.Config;
 import utilities.Driver;
+import utilities.login.LoginSetUp;
 
 import java.util.List;
 
@@ -19,23 +20,16 @@ public class ExpensesToApproveStatus_step {
     Expense_Reports_To_Approve_Page expenseReportsToApprovePage= new Expense_Reports_To_Approve_Page();
     WebDriverWait webDriverWait = new WebDriverWait(Driver.getDriver(), 10);
 
-    @When("User Go to the BRIDE ERP web page")
-    public void user_Go_to_the_BRIDE_ERP_web_page() throws InterruptedException {
-
-        Driver.getDriver().get(Config.getProperty("url"));
-
-    }
+//    @When("User Go to the BRIDE ERP web page")
+//    public void user_Go_to_the_BRIDE_ERP_web_page() throws InterruptedException {
+//
+//        Driver.getDriver().get(Config.getProperty("url"));
+//
+//    }
 
     @When("User  logged into BRIDE ERP Manager account and on Expenses page")
     public void user_logged_into_BRIDE_ERP_Manager_account_and_on_Expenses_page() {
-        login_page.emailInput.sendKeys(Config.getProperty("email"));
-        login_page.passwordInput.sendKeys(Config.getProperty("password"));
-//        WebDriverWait webDriverWait = new WebDriverWait(Driver.getDriver(), 10);
-//        webDriverWait.until(ExpectedConditions.elementToBeClickable(login_page.loginButton));
-        login_page.loginButton.click();
-        login_page.expenseModule.click();
-
-
+        LoginSetUp.loginTest();
     }
 
     @When("User Click on Expense Reports to Approve")

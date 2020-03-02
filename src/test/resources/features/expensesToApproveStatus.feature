@@ -1,11 +1,15 @@
 @smoke
 Feature: As user I should be able to see all submitted / refused / approved statuses
 
+
+  Background:
+    And User  logged into BRIDE ERP Manager account and on Expenses page
+    And User Click on Expense Reports to Approve
   Scenario: Verification submitted / approved / refuse expenses
 
-    When User Go to the BRIDE ERP web page
-    And User  logged into BRIDE ERP Manager account and on Expenses page
-    And   User Click on Expense Reports to Approve
+#    When User Go to the BRIDE ERP web page
+#    And User  logged into BRIDE ERP Manager account and on Expenses page
+#    And   User Click on Expense Reports to Approve
 
     And Remove to approve filter on the search box
 
@@ -21,9 +25,9 @@ Feature: As user I should be able to see all submitted / refused / approved stat
 
   Scenario: Verification submitted / approved / refuse expenses
 
-    When User Go to the BRIDE ERP web page
-    And User  logged into BRIDE ERP Manager account and on Expenses page
-    And   User Click on Expense Reports to Approve
+#    When User Go to the BRIDE ERP web page
+#    And User  logged into BRIDE ERP Manager account and on Expenses page
+#    And   User Click on Expense Reports to Approve
 
     And Remove to approve filter on the search box
 
@@ -37,9 +41,10 @@ Feature: As user I should be able to see all submitted / refused / approved stat
 
   Scenario: Verification submitted / approved / refuse expenses
 
-    When User Go to the BRIDE ERP web page
-    And User  logged into BRIDE ERP Manager account and on Expenses page
-    And   User Click on Expense Reports to Approve
+#    When User Go to the BRIDE ERP web page
+#    And User  logged into BRIDE ERP Manager account and on Expenses page
+#    And   User Click on Expense Reports to Approve
+
     And Remove to approve filter on the search box
 
     And Enter Submitted on search box

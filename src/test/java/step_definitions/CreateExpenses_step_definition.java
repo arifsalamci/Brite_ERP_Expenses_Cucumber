@@ -22,7 +22,7 @@ public class CreateExpenses_step_definition {
 
     @Given("User entered correct credentials and logs in")
     public void user_entered_correct_credentials_and_logs_in() {
-        LoginSetUp.loginTest();
+      LoginSetUp.loginTest();
     }
 
     @When("user press create button")
