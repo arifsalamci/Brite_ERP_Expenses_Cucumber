@@ -1,5 +1,4 @@
 package step_definitions;
-
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -24,7 +23,7 @@ Expense_Reports_To_Approve_Page expense_reports_to_approve_page = new Expense_Re
 
     @Given("User on the landing page of the app")
     public void user_on_the_landing_page_of_the_app() {
-    Driver.getDriver().get(Config.getProperty("url"));
+//    Driver.getDriver().get(Config.getProperty("url"));
         LoginSetUp.loginTest();
 
     }
@@ -51,7 +50,6 @@ expenses_main_page.expenseReport.click();
        expense_reports_page.employee_to_selectField.sendKeys(Excel.getName(1));
        Driver.getDriver().findElement(By.xpath("//ul[@id='ui-id-1']//li[.='"+Excel.getName(1)+"']")).click();
 expense_reports_page.addAnItem.click();
-
     }
 
     @Given("Expense Lines page open")

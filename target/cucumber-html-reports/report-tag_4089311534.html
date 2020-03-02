@@ -77,7 +77,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Cucumber HTML Reports</td>
               <td>1</td>
-            <td>02 Mar 2020, 10:50</td>
+            <td>02 Mar 2020, 14:15</td>
     </tr>
   </tbody>
 </table>
@@ -130,18 +130,18 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@smoke</td>
-          <td      class="passed"    >19</td>
-          <td      class="failed"    >1</td>
-          <td     class="skipped"   >4</td>
+          <td      class="passed"    >8</td>
+          <td      class="failed"    >2</td>
+          <td     class="skipped"   >5</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">24</td>
+          <td class="total">15</td>
 
-          <td  class="passed"    >2</td>
-          <td  class="failed"    >1</td>
+          <td  class="passed"    >1</td>
+          <td  class="failed"    >2</td>
           <td class="total">3</td>
 
-          <td class="duration" data-value="44745428795">44.745</td>
+          <td class="duration" data-value="27526452276">27.526</td>
           <td class="failed">Failed</td>
         </tr>
         </tbody>
@@ -184,7 +184,7 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">13.643</span>
+  <span class="lead-duration duration">9.347</span>
 
 
     <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
@@ -254,86 +254,11 @@ $(document).ready(function() {
   <div id="steps-3" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">User Go to the BRIDE ERP web page</span>
-  
-  <span class="lead-duration duration">4.986</span>
-
-</div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">User  logged into BRIDE ERP Manager account and on Expenses page</span>
-  
-  <span class="lead-duration duration">3.321</span>
-
-</div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">User Click on Expense Reports to Approve</span>
-  
-  <span class="lead-duration duration">0.055</span>
-
-</div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
 <div class="brief failed">
   <span class="keyword indention">And</span>
   <span class="name">Remove to approve filter on the search box</span>
   
-  <span class="lead-duration duration">5.279</span>
+  <span class="lead-duration duration">9.347</span>
 
 </div>
 
@@ -344,16 +269,17 @@ $(document).ready(function() {
   <div class="inner-level">
     <div class="message indention">
       <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>org.openqa.selenium.ElementClickInterceptedException:</a>
+          <a>org.openqa.selenium.StaleElementReferenceException:</a>
       </div>
       <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;fa fa-sm fa-remove o_facet_remove&quot;&gt;&lt;/div&gt; is not clickable at point (931, 56). Other element would receive the click: &lt;div class=&quot;blockUI blockOverlay&quot; style=&quot;z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.307068; cursor: default; position: fixed;&quot;&gt;&lt;/div&gt;
+        <pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Begimais-MacBook-Pro.local', ip: 'fe80:0:0:0:10cd:9cc7:14:ded%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '13.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:56945}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c73c48893514a84a888ce43f9f7c720f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:64426}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3296e3207da78f42e8470204185e78aa
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -373,8 +299,8 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy18.click(Unknown Source)
-	at step_definitions.ExpensesToApproveStatus_step.remove_to_approve_filter_on_the_search_box(ExpensesToApproveStatus_step.java:52)
-	at &#10045;.Remove to approve filter on the search box(src/test/resources/features/expensesToApproveStatus.feature:10)
+	at step_definitions.ExpensesToApproveStatus_step.remove_to_approve_filter_on_the_search_box(ExpensesToApproveStatus_step.java:46)
+	at &#10045;.Remove to approve filter on the search box(src/test/resources/features/expensesToApproveStatus.feature:14)
 </pre>
       </div>
     </div>
@@ -515,7 +441,7 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
             <span class="keyword indention">After</span>
                           <span class="location name">Hooks.tearDown(Scenario)</span>
                         
-  <span class="lead-duration duration">0.913</span>
+  <span class="lead-duration duration">1.086</span>
 
           </div>
 
@@ -529,13 +455,13 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
                 <div class="embedding indention">
         <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
       <a>Attachment 1 (png)</a>
-      <a href="embeddings/embedding_-1995810376.png" download target="_blank">
+      <a href="embeddings/embedding_1095349949.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
     <div id="embedding-6" class="collapse collapsable-details">
       <div class="embedding-content">
-        <img src="embeddings/embedding_-1995810376.png">
+        <img src="embeddings/embedding_1095349949.png">
       </div>
     </div>
   </div>
@@ -562,12 +488,12 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
       </div>
 
   
-  <span class="lead-duration duration">14.153</span>
+  <span class="lead-duration duration">5.664</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-7">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-7">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Verification submitted / approved / refuse expenses</span>
   
@@ -578,7 +504,7 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
   </span>
   <div class="description indention"></div>
 
-  <div id="element-7" class="collapse collapsable-details ">
+  <div id="element-7" class="collapse collapsable-details  in ">
     
   <div class="inner-level hooks-element-before">
         <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-8">
@@ -617,9 +543,9 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-9">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-9">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -629,89 +555,14 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
 
   </div>
 
-  <div id="steps-9" class="inner-level collapse collapsable-details ">
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">User Go to the BRIDE ERP web page</span>
-  
-  <span class="lead-duration duration">3.571</span>
-
-</div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">User  logged into BRIDE ERP Manager account and on Expenses page</span>
-  
-  <span class="lead-duration duration">1.987</span>
-
-</div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">User Click on Expense Reports to Approve</span>
-  
-  <span class="lead-duration duration">0.079</span>
-
-</div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
+  <div id="steps-9" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
   <span class="name">Remove to approve filter on the search box</span>
   
-  <span class="lead-duration duration">3.107</span>
+  <span class="lead-duration duration">3.073</span>
 
 </div>
 
@@ -736,7 +587,7 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
   <span class="keyword indention">And</span>
   <span class="name">Enter Refuse on search box</span>
   
-  <span class="lead-duration duration">0.246</span>
+  <span class="lead-duration duration">0.101</span>
 
 </div>
 
@@ -761,7 +612,7 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
   <span class="keyword indention">And</span>
   <span class="name">Fined the Refuse filter and click on it</span>
   
-  <span class="lead-duration duration">0.074</span>
+  <span class="lead-duration duration">0.453</span>
 
 </div>
 
@@ -782,17 +633,33 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">And</span>
   <span class="name">count and print all Refuse expenses</span>
   
-  <span class="lead-duration duration">2.617</span>
+  <span class="lead-duration duration">2.035</span>
 
 </div>
 
         
 
         
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-10">
+          <a>org.junit.ComparisonFailure:</a>
+      </div>
+      <div id="msg-10" class="collapse collapsable-details  in ">
+        <pre>org.junit.ComparisonFailure: expected:&lt;[Submitt]ed&gt; but was:&lt;[Refus]ed&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at step_definitions.ExpensesToApproveStatus_step.count_and_print_all_Refuse_expenses(ExpensesToApproveStatus_step.java:121)
+	at &#10045;.count and print all Refuse expenses(src/test/resources/features/expensesToApproveStatus.feature:38)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
         
@@ -807,11 +674,11 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">Then</span>
   <span class="name">User should be able to see how many Refuse status</span>
   
-  <span class="lead-duration duration">2.467</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -836,7 +703,7 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
 
     
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-10">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-11">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -848,13 +715,13 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
 
     </div>
 
-    <div id="after-10" class="inner-level collapse collapsable-details ">
+    <div id="after-11" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
                           <span class="location name">Hooks.tearDown(Scenario)</span>
                         
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.735</span>
 
           </div>
 
@@ -864,6 +731,21 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
                     
 
           
+    <div class="embeddings inner-level">
+                <div class="embedding indention">
+        <div data-toggle="collapse" data-target="#embedding-12" class="collapsable-control">
+      <a>Attachment 1 (png)</a>
+      <a href="embeddings/embedding_1069306259.png" download target="_blank">
+        <span class="download-button glyphicon glyphicon-download-alt"></span>
+      </a>
+    </div>
+    <div id="embedding-12" class="collapse collapsable-details">
+      <div class="embedding-content">
+        <img src="embeddings/embedding_1069306259.png">
+      </div>
+    </div>
+  </div>
+        </div>
   
         </div>
           </div>
@@ -886,10 +768,10 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
       </div>
 
   
-  <span class="lead-duration duration">16.949</span>
+  <span class="lead-duration duration">12.514</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-11">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-13">
     
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
@@ -902,10 +784,10 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
   </span>
   <div class="description indention"></div>
 
-  <div id="element-11" class="collapse collapsable-details ">
+  <div id="element-13" class="collapse collapsable-details ">
     
   <div class="inner-level hooks-element-before">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-12">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-14">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -917,7 +799,7 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
 
     </div>
 
-    <div id="before-12" class="inner-level collapse collapsable-details ">
+    <div id="before-14" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
@@ -941,7 +823,7 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-13">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-15">
     
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -953,89 +835,14 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
 
   </div>
 
-  <div id="steps-13" class="inner-level collapse collapsable-details ">
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">User Go to the BRIDE ERP web page</span>
-  
-  <span class="lead-duration duration">2.256</span>
-
-</div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">User  logged into BRIDE ERP Manager account and on Expenses page</span>
-  
-  <span class="lead-duration duration">2.027</span>
-
-</div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">User Click on Expense Reports to Approve</span>
-  
-  <span class="lead-duration duration">0.061</span>
-
-</div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
+  <div id="steps-15" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
   <span class="name">Remove to approve filter on the search box</span>
   
-  <span class="lead-duration duration">3.094</span>
+  <span class="lead-duration duration">3.074</span>
 
 </div>
 
@@ -1060,7 +867,7 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
   <span class="keyword indention">And</span>
   <span class="name">Enter Submitted on search box</span>
   
-  <span class="lead-duration duration">2.185</span>
+  <span class="lead-duration duration">2.154</span>
 
 </div>
 
@@ -1085,7 +892,7 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
   <span class="keyword indention">And</span>
   <span class="name">Fined the Submitted filter and click on it</span>
   
-  <span class="lead-duration duration">2.079</span>
+  <span class="lead-duration duration">2.072</span>
 
 </div>
 
@@ -1110,7 +917,7 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
   <span class="keyword indention">And</span>
   <span class="name">count and print all Submitted expenses</span>
   
-  <span class="lead-duration duration">2.738</span>
+  <span class="lead-duration duration">2.729</span>
 
 </div>
 
@@ -1135,7 +942,7 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
   <span class="keyword indention">Then</span>
   <span class="name">User should be able to see how many Submitted status</span>
   
-  <span class="lead-duration duration">2.507</span>
+  <span class="lead-duration duration">2.483</span>
 
 </div>
 
@@ -1160,7 +967,7 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
 
     
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-14">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-16">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1172,7 +979,7 @@ Session ID: c73c48893514a84a888ce43f9f7c720f
 
     </div>
 
-    <div id="after-14" class="inner-level collapse collapsable-details ">
+    <div id="after-16" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>

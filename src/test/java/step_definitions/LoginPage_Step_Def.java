@@ -22,7 +22,6 @@ public class LoginPage_Step_Def {
         lp.emailInput.sendKeys(Config.getProperty("email"));
         lp.passwordInput.sendKeys(Config.getProperty("password"));
         lp.loginButton.click();
-
     }
 
     @Then("User should be logged in and be able to verify {string} text is displayed as a title")
@@ -31,8 +30,5 @@ public class LoginPage_Step_Def {
         String actualTitle = Driver.getDriver().getTitle();
         Assert.assertTrue(actualTitle.contains(expectedTitle));
 
-
     }
-
-
 }

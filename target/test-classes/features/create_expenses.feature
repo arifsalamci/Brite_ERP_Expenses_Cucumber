@@ -6,25 +6,25 @@ Scenario: User Login verification
 Given User entered correct credentials and logs in
 #And user clicks expenses module
 #Then My Expense to submit page is displayed
-Scenario:Create button verification
+#Scenario:Create button verification
 When user press create button
 Then Expenses to submit frame popup
 
-Scenario: Fill all the information
+#Scenario: Fill all the information
 When User chooses product in the product dropdown
 And user chooses employee from employee dropdown
 Then User verifies product input displayed in the expense description field
 
-Scenario: Verify saved expense
+#Scenario: Verify saved expense
 When user presses Save button
 Then confirmation message "Expense created" should be displayed
 And submit to manager button should be displayed
 
-Scenario: submit to manager button verification
+#Scenario: submit to manager button verification
 When user clicks submit_to_manager button
 Then user should see approve and refuse button
 
-Scenario: submitted message verification
+#Scenario: submitted message verification
 When user clicks save button
 Then user should see "Expense report submitted, waiting approval" message
 #
