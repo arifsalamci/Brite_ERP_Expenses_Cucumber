@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="As user I should be able to see all submitted / refused / approved statuses" time="30.143" tests="3" errors="3" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="As user I should be able to see all submitted / refused / approved statuses" time="45.67" tests="3" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="webdriver.chrome.driver" value="/Users/begimai/.m2/repository/webdriver/chromedriver/mac64/80.0.3987.106/chromedriver"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/begimai/B_ERP_Expenses/target/surefire/surefirebooter9504800325328268652.jar /Users/begimai/B_ERP_Expenses/target/surefire 2020-02-29T19-01-01_853-jvmRun3 surefire17597777766279141970tmp surefire_214668738233660440939tmp"/>
+    <property name="sun.java.command" value="/Users/begimai/B_ERP_Expenses/target/surefire/surefirebooter12345408260923680974.jar /Users/begimai/B_ERP_Expenses/target/surefire 2020-03-02T10-49-40_480-jvmRun4 surefire2602963162975941483tmp surefire_016614428908398196694tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/begimai/B_ERP_Expenses/target/test-classes:/Users/begimai/B_ERP_Expenses/target/classes:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/begimai/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/begimai/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/begimai/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/begimai/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/begimai/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/begimai/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/begimai/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/begimai/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/begimai/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/begimai/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/begimai/.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.0/webdrivermanager-3.8.0.jar:/Users/begimai/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/begimai/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/begimai/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/begimai/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/begimai/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/begimai/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/begimai/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/begimai/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/begimai/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/begimai/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/begimai/.m2/repository/io/cucumber/cucumber-java/4.2.0/cucumber-java-4.2.0.jar:/Users/begimai/.m2/repository/io/cucumber/cucumber-core/4.2.0/cucumber-core-4.2.0.jar:/Users/begimai/.m2/repository/io/cucumber/cucumber-html/0.2.7/cucumber-html-0.2.7.jar:/Users/begimai/.m2/repository/io/cucumber/gherkin/5.1.0/gherkin-5.1.0.jar:/Users/begimai/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/Users/begimai/.m2/repository/io/cucumber/cucumber-expressions/6.2.0/cucumber-expressions-6.2.0.jar:/Users/begimai/.m2/repository/io/cucumber/datatable/1.1.7/datatable-1.1.7.jar:/Users/begimai/.m2/repository/io/cucumber/datatable-dependencies/1.1.7/datatable-dependencies-1.1.7.jar:/Users/begimai/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/begimai/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/begimai/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/begimai/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/begimai/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/begimai/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/begimai/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/begimai/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/begimai/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/begimai/.m2/repository/io/cucumber/cucumber-junit/4.2.0/cucumber-junit-4.2.0.jar:/Users/begimai/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/begimai/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -31,7 +31,7 @@
     <property name="idea.version2019.2.3" value="true"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/begimai/B_ERP_Expenses/target/surefire/surefirebooter9504800325328268652.jar"/>
+    <property name="surefire.real.class.path" value="/Users/begimai/B_ERP_Expenses/target/surefire/surefirebooter12345408260923680974.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="13.0.1+9"/>
@@ -56,35 +56,31 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="Verification submitted / approved / refuse expenses" classname="As user I should be able to see all submitted / refused / approved statuses" time="14.181">
-    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=80.0.3987.122)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Begimais-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:10cd:9cc7:14:ded%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:54184}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: b204057f9008366625aa6664ddb15133" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
-stale element reference: element is not attached to the page document
+  <testcase name="Verification submitted / approved / refuse expenses" classname="As user I should be able to see all submitted / refused / approved statuses" time="14.562">
+    <error message="element click intercepted: Element &lt;div class=&quot;fa fa-sm fa-remove o_facet_remove&quot;&gt;&lt;/div&gt; is not clickable at point (931, 56). Other element would receive the click: &lt;div class=&quot;blockUI blockOverlay&quot; style=&quot;z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.307068; cursor: default; position: fixed;&quot;&gt;&lt;/div&gt;&#10;  (Session info: chrome=80.0.3987.122)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Begimais-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:10cd:9cc7:14:ded%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:56945}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: c73c48893514a84a888ce43f9f7c720f" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div class="fa fa-sm fa-remove o_facet_remove"></div> is not clickable at point (931, 56). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.307068; cursor: default; position: fixed;"></div>
   (Session info: chrome=80.0.3987.122)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Begimais-MacBook-Pro.local', ip: 'fe80:0:0:0:10cd:9cc7:14:ded%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '13.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:54184}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b204057f9008366625aa6664ddb15133
-</error>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:56945}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c73c48893514a84a888ce43f9f7c720f
+]]></error>
     <system-out><![CDATA[
 &amp#27;[31mFailed scenarios:&amp#27;[0m
 &amp#27;[31msrc/test/resources/features/expensesToApproveStatus.feature:4 &amp#27;[0m# Verification submitted / approved / refuse expenses
-&amp#27;[31msrc/test/resources/features/expensesToApproveStatus.feature:22 &amp#27;[0m# Verification submitted / approved / refuse expenses
-&amp#27;[31msrc/test/resources/features/expensesToApproveStatus.feature:38 &amp#27;[0m# Verification submitted / approved / refuse expenses
 
-3 Scenarios (&amp#27;[31m3 failed&amp#27;[0m)
-24 Steps (&amp#27;[31m3 failed&amp#27;[0m, &amp#27;[36m16 skipped&amp#27;[0m, &amp#27;[32m5 passed&amp#27;[0m)
-0m30.480s
+3 Scenarios (&amp#27;[31m1 failed&amp#27;[0m, &amp#27;[32m2 passed&amp#27;[0m)
+24 Steps (&amp#27;[31m1 failed&amp#27;[0m, &amp#27;[36m4 skipped&amp#27;[0m, &amp#27;[32m19 passed&amp#27;[0m)
+0m46.071s
 
-org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="fa fa-sm fa-remove o_facet_remove"></div> is not clickable at point (931, 56). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.307068; cursor: default; position: fixed;"></div>
   (Session info: chrome=80.0.3987.122)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Begimais-MacBook-Pro.local', ip: 'fe80:0:0:0:10cd:9cc7:14:ded%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '13.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:54184}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b204057f9008366625aa6664ddb15133
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:56945}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c73c48893514a84a888ce43f9f7c720f
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -103,104 +99,38 @@ Session ID: b204057f9008366625aa6664ddb15133
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy16.click(Unknown Source)
-	at step_definitions.ExpensesToApproveStatus_step.remove_to_approve_filter_on_the_search_box(ExpensesToApproveStatus_step.java:54)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at step_definitions.ExpensesToApproveStatus_step.remove_to_approve_filter_on_the_search_box(ExpensesToApproveStatus_step.java:52)
 	at ✽.Remove to approve filter on the search box(src/test/resources/features/expensesToApproveStatus.feature:10)
-
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#login"}
-  (Session info: chrome=80.0.3987.122)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Begimais-MacBook-Pro.local', ip: 'fe80:0:0:0:10cd:9cc7:14:ded%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '13.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:54184}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b204057f9008366625aa6664ddb15133
-*** Element info: {Using=id, value=login}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
-	at step_definitions.ExpensesToApproveStatus_step.user_logged_into_BRIDE_ERP_Manager_account_and_on_Expenses_page(ExpensesToApproveStatus_step.java:31)
-	at ✽.User  logged into BRIDE ERP Manager account and on Expenses page(src/test/resources/features/expensesToApproveStatus.feature:25)
-
-org.openqa.selenium.NoSuchElementException: Cannot locate an element using id=login
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Begimais-MacBook-Pro.local', ip: 'fe80:0:0:0:10cd:9cc7:14:ded%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '13.0.1'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
-	at step_definitions.ExpensesToApproveStatus_step.user_logged_into_BRIDE_ERP_Manager_account_and_on_Expenses_page(ExpensesToApproveStatus_step.java:31)
-	at ✽.User  logged into BRIDE ERP Manager account and on Expenses page(src/test/resources/features/expensesToApproveStatus.feature:41)
 
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 23788
+Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 1612
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Feb 29, 2020 7:01:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 02, 2020 10:49:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1583024467.188][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583024467.289][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583024467.394][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583024467.496][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583024467.598][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583024467.699][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583024467.800][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583024467.901][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583024468.003][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583024468.104][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583024468.205][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583024469.740][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583024469.842][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583024470.028][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583024470.129][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583024470.231][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583024470.333][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583024470.434][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167785.909][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167786.011][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167786.112][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167786.213][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167786.314][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167786.415][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167786.516][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167786.619][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167788.264][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167788.365][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167788.468][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167788.569][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167788.674][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167788.775][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167788.878][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167788.987][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167789.133][SEVERE]: Timed out receiving message from renderer: 0.100
 ]]></system-err>
   </testcase>
-  <testcase name="Verification submitted / approved / refuse expenses" classname="As user I should be able to see all submitted / refused / approved statuses" time="15.142">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#login&quot;}&#10;  (Session info: chrome=80.0.3987.122)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Begimais-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:10cd:9cc7:14:ded%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:54184}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: b204057f9008366625aa6664ddb15133&#10;*** Element info: {Using=id, value=login}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#login"}
-  (Session info: chrome=80.0.3987.122)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Begimais-MacBook-Pro.local', ip: 'fe80:0:0:0:10cd:9cc7:14:ded%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '13.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:54184}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b204057f9008366625aa6664ddb15133
-*** Element info: {Using=id, value=login}
-</error>
-  </testcase>
-  <testcase name="Verification submitted / approved / refuse expenses" classname="As user I should be able to see all submitted / refused / approved statuses" time="0.813">
-    <error message="Cannot locate an element using id=login&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Begimais-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:10cd:9cc7:14:ded%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using id=login
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Begimais-MacBook-Pro.local', ip: 'fe80:0:0:0:10cd:9cc7:14:ded%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '13.0.1'
-Driver info: driver.version: RemoteWebDriver
-</error>
-  </testcase>
+  <testcase name="Verification submitted / approved / refuse expenses" classname="As user I should be able to see all submitted / refused / approved statuses" time="14.154"/>
+  <testcase name="Verification submitted / approved / refuse expenses" classname="As user I should be able to see all submitted / refused / approved statuses" time="16.95"/>
 </testsuite>

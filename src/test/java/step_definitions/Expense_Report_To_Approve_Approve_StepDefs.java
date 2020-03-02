@@ -6,6 +6,7 @@ import org.junit.Assert;
 import pages.Expense_Reports_To_Approve_Page;
 import pages.Expenses_Main_Page;
 import utilities.Driver;
+import utilities.login.LoginSetUp;
 
 public class Expense_Report_To_Approve_Approve_StepDefs {
     Expense_Reports_To_Approve_Page moduleObject = new Expense_Reports_To_Approve_Page();
@@ -14,7 +15,8 @@ public class Expense_Report_To_Approve_Approve_StepDefs {
 
     @When("User click to Expenses module user should be navigate Expenses module")
     public void user_click_to_Expenses_module_user_should_be_navigate_Expenses_module() {
-        moduleObject.expensesModule.click();
+        LoginSetUp.loginTest();
+//        moduleObject.expensesModule.click();
 
     }
 

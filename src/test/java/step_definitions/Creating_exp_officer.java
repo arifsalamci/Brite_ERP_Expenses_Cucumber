@@ -10,20 +10,16 @@ import pages.Expenses_To_Submit_Page;
 import pages.Login_Page;
 import utilities.Config;
 import utilities.Driver;
+import utilities.login.LoginSetUp;
 
 import javax.security.auth.login.LoginContext;
 
 public class Creating_exp_officer {
     Expenses_To_Submit_Page  expenses = new Expenses_To_Submit_Page();
-    Login_Page login = new Login_Page();
     @Given("User clicks on the Expenses functionality")
     public void user_clicks_on_the_Expenses_functionality() {
         Driver.getDriver().get(Config.getProperty("url"));
-        login.emailInput.sendKeys(Config.getProperty("email"));
-        login.passwordInput.sendKeys(Config.getProperty("password"));
-        login.loginButton.click();
-        login.expenseModule.click();
-
+       LoginSetUp.loginTest();
     }
 
     @When("User clicks on the Create button")

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Expenses module" time="32.384" tests="6" errors="5" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Expenses Module" time="9.76" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="webdriver.chrome.driver" value="/Users/begimai/.m2/repository/webdriver/chromedriver/mac64/80.0.3987.106/chromedriver"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/begimai/B_ERP_Expenses/target/surefire/surefirebooter3956392789342401070.jar /Users/begimai/B_ERP_Expenses/target/surefire 2020-02-29T19-01-01_853-jvmRun1 surefire12842565716542480323tmp surefire_39778100514848665646tmp"/>
+    <property name="sun.java.command" value="/Users/begimai/B_ERP_Expenses/target/surefire/surefirebooter5198825324941629627.jar /Users/begimai/B_ERP_Expenses/target/surefire 2020-03-02T10-49-40_480-jvmRun2 surefire4384137642549498149tmp surefire_17786718749975453939tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/begimai/B_ERP_Expenses/target/test-classes:/Users/begimai/B_ERP_Expenses/target/classes:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/begimai/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/begimai/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/begimai/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/begimai/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/begimai/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/begimai/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/begimai/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/begimai/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/begimai/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/begimai/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/begimai/.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.0/webdrivermanager-3.8.0.jar:/Users/begimai/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/begimai/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/begimai/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/begimai/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/begimai/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/begimai/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/begimai/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/begimai/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/begimai/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/begimai/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/begimai/.m2/repository/io/cucumber/cucumber-java/4.2.0/cucumber-java-4.2.0.jar:/Users/begimai/.m2/repository/io/cucumber/cucumber-core/4.2.0/cucumber-core-4.2.0.jar:/Users/begimai/.m2/repository/io/cucumber/cucumber-html/0.2.7/cucumber-html-0.2.7.jar:/Users/begimai/.m2/repository/io/cucumber/gherkin/5.1.0/gherkin-5.1.0.jar:/Users/begimai/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/Users/begimai/.m2/repository/io/cucumber/cucumber-expressions/6.2.0/cucumber-expressions-6.2.0.jar:/Users/begimai/.m2/repository/io/cucumber/datatable/1.1.7/datatable-1.1.7.jar:/Users/begimai/.m2/repository/io/cucumber/datatable-dependencies/1.1.7/datatable-dependencies-1.1.7.jar:/Users/begimai/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/begimai/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/begimai/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/begimai/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/begimai/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/begimai/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/begimai/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/begimai/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/begimai/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/begimai/.m2/repository/io/cucumber/cucumber-junit/4.2.0/cucumber-junit-4.2.0.jar:/Users/begimai/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/begimai/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -31,7 +31,7 @@
     <property name="idea.version2019.2.3" value="true"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/begimai/B_ERP_Expenses/target/surefire/surefirebooter3956392789342401070.jar"/>
+    <property name="surefire.real.class.path" value="/Users/begimai/B_ERP_Expenses/target/surefire/surefirebooter5198825324941629627.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="13.0.1+9"/>
@@ -56,64 +56,51 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="User Login verification" classname="Expenses module" time="7.83"/>
-  <testcase name="Create button verification" classname="Expenses module" time="6.148">
-    <error message="element click intercepted: Element &lt;button accesskey=&quot;c&quot; class=&quot;btn btn-primary btn-sm o_list_button_add&quot; type=&quot;button&quot;&gt;...&lt;/button&gt; is not clickable at point (265, 92). Other element would receive the click: &lt;div tabindex=&quot;-1&quot; data-backdrop=&quot;static&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; class=&quot;modal o_technical_modal in&quot; id=&quot;modal_9&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=80.0.3987.122)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Begimais-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:10cd:9cc7:14:ded%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:54186}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: c87c1c49b3e25c0963c47eb3715a96a2" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <button accesskey="c" class="btn btn-primary btn-sm o_list_button_add" type="button">...</button> is not clickable at point (265, 92). Other element would receive the click: <div tabindex="-1" data-backdrop="static" role="dialog" aria-hidden="false" class="modal o_technical_modal in" id="modal_9" style="display: block;">...</div>
-  (Session info: chrome=80.0.3987.122)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Begimais-MacBook-Pro.local', ip: 'fe80:0:0:0:10cd:9cc7:14:ded%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '13.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:54186}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c87c1c49b3e25c0963c47eb3715a96a2
-]]></error>
-  </testcase>
-  <testcase name="Fill all the information" classname="Expenses module" time="15.064">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//input[@class=&apos;o_input ui-autocomplete-input&apos;])[1]&quot;}&#10;  (Session info: chrome=80.0.3987.122)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Begimais-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:10cd:9cc7:14:ded%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:54186}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: c87c1c49b3e25c0963c47eb3715a96a2&#10;*** Element info: {Using=xpath, value=(//input[@class=&apos;o_input ui-autocomplete-input&apos;])[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@class='o_input ui-autocomplete-input'])[1]"}
-  (Session info: chrome=80.0.3987.122)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Begimais-MacBook-Pro.local', ip: 'fe80:0:0:0:10cd:9cc7:14:ded%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '13.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:54186}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c87c1c49b3e25c0963c47eb3715a96a2
-*** Element info: {Using=xpath, value=(//input[@class='o_input ui-autocomplete-input'])[1]}
-</error>
-  </testcase>
-  <testcase name="Verify saved expense" classname="Expenses module" time="3.321">
-    <error message="Cannot locate an element using xpath=//button[@class=&apos;btn btn-primary btn-sm o_form_button_save&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Begimais-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:10cd:9cc7:14:ded%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using xpath=//button[@class='btn btn-primary btn-sm o_form_button_save']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Begimais-MacBook-Pro.local', ip: 'fe80:0:0:0:10cd:9cc7:14:ded%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '13.0.1'
-Driver info: driver.version: RemoteWebDriver
-</error>
-  </testcase>
-  <testcase name="submit to manager button verification" classname="Expenses module" time="0.005">
-    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=80.0.3987.122)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Begimais-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:10cd:9cc7:14:ded%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:54186}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: c87c1c49b3e25c0963c47eb3715a96a2&#10;*** Element info: {Using=xpath, value=//button[.=&apos;Submit to Manager&apos;]}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=80.0.3987.122)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Begimais-MacBook-Pro.local', ip: 'fe80:0:0:0:10cd:9cc7:14:ded%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '13.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:54186}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c87c1c49b3e25c0963c47eb3715a96a2
-*** Element info: {Using=xpath, value=//button[.='Submit to Manager']}
-</error>
-  </testcase>
-  <testcase name="submitted message verification" classname="Expenses module" time="0.006">
-    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=80.0.3987.122)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Begimais-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:10cd:9cc7:14:ded%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:54186}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: c87c1c49b3e25c0963c47eb3715a96a2&#10;*** Element info: {Using=xpath, value=//button[@class=&apos;btn btn-primary btn-sm o_form_button_save&apos;]}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=80.0.3987.122)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Begimais-MacBook-Pro.local', ip: 'fe80:0:0:0:10cd:9cc7:14:ded%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '13.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:54186}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c87c1c49b3e25c0963c47eb3715a96a2
-*** Element info: {Using=xpath, value=//button[@class='btn btn-primary btn-sm o_form_button_save']}
-</error>
+  <testcase name="Login as a manager and try to refuse it" classname="Expenses Module" time="9.76">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+</failure>
+    <system-out><![CDATA[
+&amp#27;[31mFailed scenarios:&amp#27;[0m
+&amp#27;[31msrc/test/resources/features/Expense_Report_To_Approve_Refuse.feature:5 &amp#27;[0m# Login as a manager and try to refuse it
+
+1 Scenarios (&amp#27;[31m1 failed&amp#27;[0m)
+25 Steps (&amp#27;[31m1 failed&amp#27;[0m, &amp#27;[36m19 skipped&amp#27;[0m, &amp#27;[32m5 passed&amp#27;[0m)
+0m10.124s
+
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at step_definitions.Expense_Report_To_Aprrove_Refuse_StepDefs.it_should_navigate_to_Expenses_page(Expense_Report_To_Aprrove_Refuse_StepDefs.java:67)
+	at ✽.It should navigate to Expenses page(src/test/resources/features/Expense_Report_To_Approve_Refuse.feature:12)
+
+Odoo
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 44876
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Mar 02, 2020 10:49:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1583167785.801][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167785.902][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167786.005][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167786.105][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167786.208][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167786.309][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167786.411][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167786.512][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167788.037][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167788.138][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167788.238][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167788.339][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167788.460][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167788.561][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167788.663][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167788.764][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583167788.865][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
   </testcase>
 </testsuite>
