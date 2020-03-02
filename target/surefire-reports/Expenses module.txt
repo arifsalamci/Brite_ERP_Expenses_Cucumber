@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Expenses Module
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.76 s <<< FAILURE! - in Expenses Module
+Login as a manager and try to refuse it(Expenses Module)  Time elapsed: 9.76 s  <<< FAILURE!
+java.lang.AssertionError
+

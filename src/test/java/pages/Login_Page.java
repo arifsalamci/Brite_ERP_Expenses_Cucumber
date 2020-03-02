@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import utilities.Config;
 import utilities.Driver;
 
 
@@ -24,6 +25,7 @@ public class Login_Page {
     @FindBy(xpath = "(//span[contains(text(),'Expenses')])[1]")
     public WebElement expenseModule;
 
-
+    @FindBy(xpath = "/html/head/title")
+    public WebElement title;
 
 }

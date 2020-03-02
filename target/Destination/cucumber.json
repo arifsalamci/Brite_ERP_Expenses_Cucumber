@@ -1,1 +1,360 @@
-[]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 641900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login as a manager and try to refuse it",
+        "description": "",
+        "id": "expenses-module;login-as-a-manager-and-try-to-refuse-it",
+        "after": [
+          {
+            "result": {
+              "duration": 713321700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6229525600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on login page",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 314612800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User puts credentials in \"username\" and \"password\" box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 40
+                }
+              ],
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_puts_credentials_in_and_box(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1280128600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2017689600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "It should navigate user to landing page",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.it_should_navigate_user_to_landing_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 73123200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks Expenses module at the top",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_clicks_Expenses_module_at_the_top()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4345900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "It should navigate to Expenses page",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.it_should_navigate_to_Expenses_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60512400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on Expense Reports to Approve at the left side",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.click_on_Expense_Reports_to_Approve_at_the_left_side()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4956800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "It should navigate to Expense Reports to Approve page",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.it_should_navigate_to_Expense_Reports_to_Approve_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2045883900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify that there is a filter called To Approved",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.verify_that_there_is_a_filter_called_To_Approved()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2026570800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should verify that there is a filter called To Approved",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_should_verify_that_there_is_a_filter_called_To_Approved()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2062747200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User cancels the filter To Approved option",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_cancels_the_filter_To_Approved_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1026343300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should be able to cancel the filter",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_should_be_able_to_cancel_the_filter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 575626400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User  verifies that all list of any kind of expenses should be displayed",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_verifies_that_all_list_of_any_kind_of_expenses_should_be_displayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 581542800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should be able to cancel the filter",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_should_be_able_to_cancel_the_filter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60501500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on one of the submitted expenses displayed in the list",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_clicks_on_one_of_the_submitted_expenses_displayed_in_the_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1999961400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "It should navigate to page of that expenses",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.it_should_navigate_to_page_of_that_expenses()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29670000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User verifies there is a Refuse button right next to Approve button",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_verifies_there_is_a_Refuse_button_right_next_to_Approve_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76125100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Refuse button should be displayed",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.refuse_button_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 55555900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User clicks Refuse button next to Approve button",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.userClicksRefuseButtonNextToApproveButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2174328700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User writes the reason of refusing",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_writes_the_reason_of_refusing()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68928500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User clicks Refuse button in window",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_clicks_Refuse_button_in_window()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2078103900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User clicks on Expense Reports to Approve again",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_clicks_on_Expense_Reports_to_Approve_again()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32821600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "It should navigate to page of list of all expenses",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.it_should_navigate_to_page_of_list_of_all_expenses()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2328851600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User cancels the filter To Approved option",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.user_cancels_the_filter_To_Approved_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27575100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Refused expense should be shown as refused int the list",
+            "match": {
+              "location": "Expense_Report_To_Aprrove_Refuse_StepDefs.refused_expense_should_be_shown_as_refused_int_the_list()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Expenses Module",
+    "description": "  Story:As a User have to be able to go to Expense Reports to Approve functionality and see all the\n  Expense Sheet and refuse it.",
+    "id": "expenses-module",
+    "keyword": "Feature",
+    "uri": "C:/Users/Arif-Busra/IdeaProjects/Brite_ERP_Expenses_Cucumber/src/test/resources/features/Expense_Report_To_Approve_Refuse.feature",
+    "tags": []
+  }
+]
