@@ -8,13 +8,14 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-        features = "C:\\Users\\Arif-Busra\\IdeaProjects\\Brite_ERP_Expenses_Cucumber\\src\\test\\resources\\features\\Expense_Report_To_Approve_Refuse.feature",
+        features = "src/test/resources/features/Expense_Report_To_Approve_Refuse.feature",
         glue = "step_definitions",
-        plugin ="json:target/Destination/cucumber.json",
+        plugin ={"html:target/default-cucumber-reports",
+                "json:target/parallel-cucumber4.json"},
         dryRun = false,
 
         tags = "@smoke"
 )
-public class CukesRunnerMAX {
+public class Test5ParallelRunner {
 
 }

@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: As user I should be able to see all submitted / refused / approved statuses
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 45.67 s <<< FAILURE! - in As user I should be able to see all submitted / refused / approved statuses
+Verification submitted / approved / refuse expenses(As user I should be able to see all submitted / refused / approved statuses)  Time elapsed: 14.562 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div class="fa fa-sm fa-remove o_facet_remove"></div> is not clickable at point (931, 56). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.307068; cursor: default; position: fixed;"></div>
+  (Session info: chrome=80.0.3987.122)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Begimais-MacBook-Pro.local', ip: 'fe80:0:0:0:10cd:9cc7:14:ded%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:56945}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c73c48893514a84a888ce43f9f7c720f
+

@@ -32,8 +32,6 @@ public class ExpensesToApproveStatus_step {
         login_page.passwordInput.sendKeys(Config.getProperty("password"));
 //        WebDriverWait webDriverWait = new WebDriverWait(Driver.getDriver(), 10);
 //        webDriverWait.until(ExpectedConditions.elementToBeClickable(login_page.loginButton));
-
-
         login_page.loginButton.click();
         login_page.expenseModule.click();
 
@@ -198,7 +196,8 @@ public class ExpensesToApproveStatus_step {
             count++;
         }
         System.out.println(count);
-
+Driver.quitDriver();
     }
+
     }
 
