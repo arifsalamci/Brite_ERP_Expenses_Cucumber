@@ -10,6 +10,8 @@
         <module name="B_ERP_Expenses" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="13" />
+    <bytecodeTargetLevel target="13">
+      <module name="B_ERP_Expenses" target="13" />
+    </bytecodeTargetLevel>
   </component>
 </project>
